@@ -9,7 +9,7 @@ theme:
     name: material
     favicon: img/favicon.png
     icon:
-       logo: material/typewriter
+       logo: material/flask-round-bottom
        admonition:
          note: octicons/tag-16
          abstract: octicons/checklist-16
