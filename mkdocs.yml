@@ -1,8 +1,13 @@
 site_name: The Zymurgical Oubliette
 theme:
     features:
-    - toc.integrate
+#    - toc.integrate
+    - navigation.instant
+    - navigation.expand
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
     font:
        text: Rufina
        code: Red Hat Mono
@@ -43,6 +48,10 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+nav:
+  -Home:
+     - index.md
 
 # Extensions
 markdown_extensions:
