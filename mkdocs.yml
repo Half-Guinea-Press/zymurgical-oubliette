@@ -37,17 +37,6 @@ theme:
 nav:
   - Home:
     - index.md
-  - Spells: 
-    - spells.md
-  - Spell Details:
-    - spell_details.md
-  - Ansa:
-    - ansa/index.md 
-    - Combat: ansa/ansa_combat.md
-    - Features: ansa/ansa_features.md
-    - Hexes: ansa/ansa_hexes.md
-    - Spells: ansa/ansa_spells.md
-    - Familiars: ansa/ansa_familiars.md
     
 # Extensions
 markdown_extensions:
