@@ -46,9 +46,9 @@ nav:
   - Blog:
     - blog/index.md
   - References:
-    -references/index.md
+    - references/index.md
   - About:
-    -about/index.md
+    - about/index.md
     
 # Extensions
 markdown_extensions:
