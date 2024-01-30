@@ -37,6 +37,13 @@ theme:
 nav:
   - Home:
     - index.md
+  - Stories:
+  - Adventures:
+  - Games:
+  - Blog:
+    - blog/index.md
+  - References:
+  - About:
     
 # Extensions
 markdown_extensions:
@@ -85,6 +92,7 @@ plugins:
   - search
   - mermaid2
   - tags
+  - blog
 
 extra_javascript:
   - javascripts/mathjax.js
