@@ -41,7 +41,7 @@ nav:
     - worlds/index.md
   - Adventures:
     - adventures/index.md
-    - Group N Campaign: adventures/group-n.md
+    - Group N Campaign: adventures/group-n/index.md
   - Games:
     - games/index.md
   - Blog:
