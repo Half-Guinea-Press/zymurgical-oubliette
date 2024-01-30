@@ -38,12 +38,17 @@ nav:
   - Home:
     - index.md
   - Stories:
+    - stories/index.md
   - Adventures:
+    - adventures/index.md
   - Games:
+    - games/index.md
   - Blog:
     - blog/index.md
   - References:
+    -references/index.md
   - About:
+    -about/index.md
     
 # Extensions
 markdown_extensions:
