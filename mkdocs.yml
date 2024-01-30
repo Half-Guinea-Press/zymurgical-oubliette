@@ -95,7 +95,7 @@ markdown_extensions:
         - includes/abbreviations.md
 plugins:
   - search
-  - mermaid2
+#  - mermaid2
   - tags
   - blog
 
