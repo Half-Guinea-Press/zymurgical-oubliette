@@ -2,8 +2,7 @@
 authors:
   - Mad
 categories:
-  - first-post
-  - starting-point
+  - update
 date:
   created: 2024-01-30 
 ---
@@ -17,6 +16,7 @@ Things accomplished:
 - mkdocs page setup
 - Page structure setup
 - Blog plugin setup
+- 5e SRD citation
 
 Things planned:
 
