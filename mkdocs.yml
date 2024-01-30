@@ -42,6 +42,9 @@ nav:
   - Adventures:
     - adventures/index.md
     - Group N Campaign: adventures/group-n/index.md
+      - Campaign Setting: adventures/group-n/setting/index.md
+      - Player Characters: adventures/group-n/pcs/index.md
+      - Non-Player Characters: adventures/group-n/npcs/index.md
   - Games:
     - games/index.md
   - Blog:
