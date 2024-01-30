@@ -5,5 +5,5 @@ hide:
 ---
 
 # Welcome to the Zymurgical Oubliette
-#### A mad exploration of worlds, stories, adventures, and the games we play in them...
+#### A mad exploration of worlds, adventures, and the games we play in them...
 
