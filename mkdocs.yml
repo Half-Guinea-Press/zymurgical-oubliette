@@ -37,8 +37,8 @@ theme:
 nav:
   - Home:
     - index.md
-  - Stories:
-    - stories/index.md
+  - Worlds:
+    - worlds/index.md
   - Adventures:
     - adventures/index.md
   - Games:
