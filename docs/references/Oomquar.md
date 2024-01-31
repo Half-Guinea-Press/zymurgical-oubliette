@@ -115,4 +115,6 @@ Prerequisite: Oomquar. (You cannot take this feat if you have already have the P
 
 Your Ink Spray is now sticky and adhering. When you hit a creature with your Ink Spray the target is restrained until the end of their next turn unless it succeeds on a Strength saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus.
 
+## Source:
+
 *Arndt, E. (2021). Play Your Next 5E D&D Game with a Friendly Octopod New Playable Race and Feats. Nerdarchy. [https://nerdarchy.com/play-your-next-5e-dd-game-with-a-friendly-octopod-new-playable-race-and-feats/](https://nerdarchy.com/play-your-next-5e-dd-game-with-a-friendly-octopod-new-playable-race-and-feats/)*
