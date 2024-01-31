@@ -6,10 +6,6 @@
 
 ## Links To Be Reviewed
 
-- <a href="http://www.maximumverbosity.net/twine/Illume/">http://www.maximumverbosity.net/twine/Illume/</a>
-- <a href="http://www.mcdemarco.net/tools/scree/dotgraph/">http://www.mcdemarco.net/tools/scree/dotgraph/</a>
-- <a href="https://twinelab.net/twine-resources/#/?id=tooling">https://twinelab.net/twine-resources/#/?id=tooling</a>
-- <a href="http://adventures.longwelwind.net">http://adventures.longwelwind.net</a>
 - <a href="https://www.wizardslaboratory.com/running-escape-the-oubliette/">https://www.wizardslaboratory.com/running-escape-the-oubliette/</a>
 - <a href="https://www.goldstartool.com/">https://www.goldstartool.com/</a>
 - <a href="https://www.wawak.com/">https://www.wawak.com/</a>
