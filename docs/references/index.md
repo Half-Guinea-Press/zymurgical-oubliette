@@ -3,7 +3,7 @@
 ## Research
 
 - [Average Room Sizes](average-room-sizes)
-- [Oomquar]
+- [Oomquar](Oomquar)
 
 ## Citations
 
