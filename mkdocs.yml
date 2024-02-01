@@ -8,7 +8,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     font:
-       text: Cormorant Garamond
+       text: Playfair Display
        code: Red Hat Mono
     name: material
     favicon: images/favicon.png
