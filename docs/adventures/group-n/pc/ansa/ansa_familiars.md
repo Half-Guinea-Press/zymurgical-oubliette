@@ -7,7 +7,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   ## Dyen "Fredrick" - Winter Wolf Pup
+-   ## Dyen "Fredrick" Winter Wolf Pup
 
     ---
 
