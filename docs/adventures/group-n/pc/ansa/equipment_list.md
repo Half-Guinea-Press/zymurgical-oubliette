@@ -1,22 +1,27 @@
+---
+hide:
+  - navigation
+---
+
 # Equipment
 
 <div class="grid cards" markdown>
 
--   On Person:
+-   ## On Person:
 
     ---
 
     [Twinkleluck's Hat of Surprises](tinklelucks_hat_of_surprises)
 
--   In Belt Pouch:
+-   ## In Belt Pouch:
 
     ---
 
--   In Backpack:
+-   ## In Backpack:
 
     ---
 
--   At Residence:
+-   ## At Residence:
 
     ---
 
