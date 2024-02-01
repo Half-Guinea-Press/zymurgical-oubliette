@@ -28,7 +28,7 @@
 
     Languages: Common, Northern Outlander, Draconic
 
--   Features
+-   [Features](ansa_features)
 
     ---
 
@@ -36,10 +36,10 @@
     Background: Hermit Discovery<br>
     Feats: Shadow Touched, Skill Expert, Spell Sniper<br>
     Class: Witch's Curse(Possessed), Hexes, Cackle, Familiar, Insidious Spell, Improved Familiar, Dying Curse<br>
-    Hexes: Beckon Familiar, Duplicity, Evil Eye, Obfuscate, Ruin<br>
+    [Hexes](ansa_hexes): Beckon Familiar, Duplicity, Evil Eye, Obfuscate, Ruin<br>
     White Magic: Bonus Spells, Hex(Remedy), Talisman of Protection, Benevolent Surge<br>
 
--   Spell Casting:
+-   [Spell Casting](ansa_spells)
 
     ---
 
@@ -51,11 +51,11 @@
     4th Level: Death ward, Guardian of faith, Polymorph<br>
     5th Level: Flame Strike, Geas, Hold Monster, Mass cure wounds, Raise dead, Scrying
 
--   Equipment:
+-   [Equipment](equipment_list):
 
     ---
 
--   Familiars:
+-   [Familiars](ansa_familiars):
 
     ---
 
