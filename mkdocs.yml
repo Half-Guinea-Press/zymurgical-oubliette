@@ -3,14 +3,12 @@ theme:
     features:
 #    - toc.integrate
     - navigation.instant
-    - navigation.expand
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
-    - navigation.path
     font:
-       text: Rufina
+       text: Cormorant Garamond
        code: Red Hat Mono
     name: material
     favicon: images/favicon.png
