@@ -15,7 +15,7 @@ theme:
     name: material
     favicon: images/favicon.png
     icon:
-       logo: material/typewriter
+       logo: :material-bottle-tonic-outline:
     palette:
 
     # Light mode
