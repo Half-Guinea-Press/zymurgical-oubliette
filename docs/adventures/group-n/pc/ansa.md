@@ -63,6 +63,14 @@ hide:
 
     ---
 
+    On Person:
+
+    In Belt Pouch:
+
+    In Backpack:
+
+    At Residence:
+    
 -   [Familiars](ansa_familiars):
 
     ---
