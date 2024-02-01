@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Spells
 
 <div class="grid cards" markdown>
