@@ -13,7 +13,7 @@ theme:
        text: Rufina
        code: Red Hat Mono
     name: material
-    favicon: image/favicon.png
+    favicon: images/favicon.png
     icon:
        logo: material/typewriter
     palette:
