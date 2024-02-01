@@ -69,11 +69,9 @@ hide:
     Margarita - Imp<br>
     Ivan Ivanovitch - Fright<br>
 
--   [Equipment](equipment_list):
+-   [Equipment](equipment_list): On Person
 
     ---
-
-    On Person:
     
     [Twinkleluck's Hat of Surprises](tinklelucks_hat_of_surprises)<br>
     Traveler's Clothes<br>
@@ -92,7 +90,9 @@ hide:
     Bell<br>
     Studded Leather Armor<br>
 
-    In Belt Pouch:
+-   [Equipment](equipment_list): In Belt Pouch
+
+    ---
     
     Acid (vial)<br>
     Alchemist's Fire (flask)<br>
@@ -103,7 +103,9 @@ hide:
     Candle<br>
     Chalk (1 piece)<br>
 
-    In Backpack:
+-   [Equipment](equipment_list): In Backpack
+
+    ---
     
     Arrows (20)<br>
     Backpack<br>
@@ -127,12 +129,12 @@ hide:
     Waterskin<br>
     Torch<br>
 
-    At Residence:
+-   [Equipment](equipment_list): At Residence
+
+    ---
     
     Alchemist's Supplies<br>
     Herbalism Kit<br>
     Poisoner's Kit<br>
-
-
 
 </div>
