@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Ansa Khenbish Morevna Yadigla
 
 <div class="grid cards" markdown>
