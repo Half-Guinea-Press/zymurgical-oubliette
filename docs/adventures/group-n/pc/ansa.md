@@ -16,7 +16,7 @@ hide:
     Str 14(+2) Dex 15(+2) Con 16(+3)<br>
     Int 18(+4) Wis 16(+3) Chr 20(+5)
 
--   Saves: Wis +7 Chr +9
+    Saves: Wis +7 Chr +9
 
     Prof:    +4 Init:    +7 Spd:     30
 
