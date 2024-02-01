@@ -12,6 +12,7 @@
 
 ## Links to some cool stuff that I haven't cited yet but want to make sure I don't loose where they are...
 
+- [https://www.mdpresley.com/worldbuilding-resources](https://www.mdpresley.com/worldbuilding-resources)
 - [https://sophiehoulden.com/twine/writingfantasy_guide.html](https://sophiehoulden.com/twine/writingfantasy_guide.html)
 - [https://azgaar.github.io/Armoria/](https://azgaar.github.io/Armoria/)
 - [https://azgaar.github.io/Fantasy-Map-Generator/](https://azgaar.github.io/Fantasy-Map-Generator/)
