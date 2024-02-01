@@ -59,6 +59,16 @@ hide:
     4th Level: Death ward, Guardian of faith, Polymorph<br>
     5th Level: Flame Strike, Geas, Hold Monster, Mass cure wounds, Raise dead, Scrying
 
+-   [Familiars](ansa_familiars):
+
+    ---
+
+    Dyen - Winter Wolf Pup<br>
+    Noch - Owl<br>
+    Tsmok - Brass Dragon Wyrmling(w/o breath weapon)<br>
+    Margarita - Imp<br>
+    Ivan Ivanovitch - Fright<br>
+
 -   [Equipment](equipment_list):
 
     ---
@@ -70,17 +80,5 @@ hide:
     In Backpack:
 
     At Residence:
-    
--   [Familiars](ansa_familiars):
-
-    ---
-
-    Dyen - Winter Wolf Pup<br>
-    Noch - Owl<br>
-    Tsmok - Brass Dragon Wyrmling(w/o breath weapon)<br>
-    Margarita - Imp<br>
-    Ivan Ivanovitch - Fright<br>
-
-
 
 </div>
