@@ -15,11 +15,9 @@ hide:
 </style>
 # Group N Campaign
 
-!!! abstract inline end "Session Notes"
+## Player Characters
 
-    - Session 1
-    - Session 2
-    - Session 3
+---
 
 <div class="row">
   <div class="column">
@@ -48,6 +46,11 @@ hide:
   </div>
 </div>
 
+!!! abstract "Session Notes"
+
+    - Session 1
+    - Session 2
+    - Session 3
 
 <div class="grid cards" markdown>
 
