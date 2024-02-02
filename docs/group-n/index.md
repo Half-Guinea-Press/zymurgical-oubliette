@@ -6,13 +6,13 @@ hide:
 
 # Group N Campaign
 
-<div class="grid cards" markdown>
-
--   ## Sessions
+??? abstract "## Sessions"
 
     - Session 1
     - Session 2
     - Session 3
+      
+<div class="grid cards" markdown>
 
 -   ## Player Characters
     
