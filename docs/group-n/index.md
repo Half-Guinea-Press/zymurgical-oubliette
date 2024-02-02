@@ -3,26 +3,13 @@ hide:
   - navigation
   - toc
 ---
-<style>
-  .row {
-  display: flex;
-}
 
-.column {
-  flex: 16.66%;
-  padding: 5px;
-}
-</style>
 # Group N Campaign
-
-## Player Characters
-
----
 
 <div class="row">
   <div class="column">
     <figure markdown>
-      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/ansa/">
         <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100px;height:100px;">
       </a>
       <figcaption>Ansa</figcaption>
@@ -30,40 +17,61 @@ hide:
   </div>
   <div class="column">
     <figure markdown>
-      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
-        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100px;height:100px;">
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/bruk/">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/bruk.jpg" alt="Ansa" style="width:100px;height:100px;">
       </a>
-      <figcaption>Ansa</figcaption>
+      <figcaption>Bruk</figcaption>
     </figure>
   </div>
   <div class="column">
     <figure markdown>
-      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
-        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100px;height:100px;">
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/gaia/">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/gaia.jpg" alt="Ansa" style="width:100px;height:100px;">
       </a>
-      <figcaption>Ansa</figcaption>
+      <figcaption>Gaia</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/gaia/">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/gaia.jpg" alt="Ansa" style="width:100px;height:100px;">
+      </a>
+      <figcaption>Gaia</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/mirvaish/">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/mirvaish.jpg" alt="Ansa" style="width:100px;height:100px;">
+      </a>
+      <figcaption>Gaia</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/nici/">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/nici.jpg" alt="Ansa" style="width:100px;height:100px;">
+      </a>
+      <figcaption>Gaia</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/norm/">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/norm_man.jpg" alt="Ansa" style="width:100px;height:100px;">
+      </a>
+      <figcaption>Gaia</figcaption>
     </figure>
   </div>
 </div>
 
-!!! abstract "Session Notes"
+??? abstract "Session Notes"
 
     - Session 1
     - Session 2
     - Session 3
 
 <div class="grid cards" markdown>
-
--   ## Player Characters
-
-    ---
-
-    - [Ansa](pc/ansa)
-    - [Bruk](pc/bruk)
-    - [Gaia](pc/gaia)
-    - [Mirvaish](pc/mirvaish)
-    - [Nici](pc/nici)
-    - [Norm Man](pc/norm)
 
 -   ## People
 
