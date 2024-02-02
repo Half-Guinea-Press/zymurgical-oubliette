@@ -14,8 +14,6 @@ hide:
     - Session 2
     - Session 3
 
--   ## Maps
-
 -   ## Player Characters
     
     - [Ansa](pc/ansa)
@@ -29,6 +27,14 @@ hide:
 
 -   ## Organizations
 
+-   ## Maps
+
 -   ## Locations
+
+-   ## Magic Items
+
+-   ## Artifacts
+
+-   ## Important Objects
 
 </div>
