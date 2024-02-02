@@ -10,7 +10,7 @@ hide:
   }
   
   .column {
-    flex: 33.33%;
+    flex: 20%;
     padding: 5px;
   }
 </style>
