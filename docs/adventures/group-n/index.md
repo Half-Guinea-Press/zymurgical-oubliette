@@ -15,7 +15,7 @@
     - [Gaia](pc/gaia)
     - [Mirvaish](pc/mirvaish)
     - [Nici](pc/nici)
-    - [Norm Man](pc/norm man)
+    - [Norm Man](pc/norm)
 
 -   ## Non-Player Characters
 
