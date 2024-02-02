@@ -15,6 +15,7 @@ hide:
 <div class="grid cards" markdown>
 
 -   ## Player Characters
+    ---
     
     - [Ansa](pc/ansa)
     - [Bruk](pc/bruk)
@@ -25,6 +26,15 @@ hide:
 
 -   ## People
 
+    ---
+    === "Friendly"
+
+    === "Neutral"
+
+    === "Hostile"
+
+    === "Unknown"
+    
 -   ## Places
 
 -   ## Things
