@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Group N Campaign
 
 <div class="grid cards" markdown>
