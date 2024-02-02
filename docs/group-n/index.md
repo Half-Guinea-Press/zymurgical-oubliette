@@ -6,7 +6,7 @@ hide:
 
 # Group N Campaign
 
-??? abstract "## Sessions"
+!!! abstract inline end "Session Notes"
 
     - Session 1
     - Session 2
