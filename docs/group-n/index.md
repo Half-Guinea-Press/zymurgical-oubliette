@@ -16,7 +16,7 @@ hide:
   <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
-        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:400px;height:400px;">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100px;height:100px;">
       </a>
       <figcaption>Ansa</figcaption>
     </figure>
@@ -24,7 +24,7 @@ hide:
   <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
-        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:400px;height:400px;">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100px;height:100px;">
       </a>
       <figcaption>Ansa</figcaption>
     </figure>
@@ -32,7 +32,7 @@ hide:
   <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
-        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:400px;height:400px;">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100px;height:100px;">
       </a>
       <figcaption>Ansa</figcaption>
     </figure>
