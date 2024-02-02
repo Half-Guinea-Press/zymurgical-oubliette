@@ -10,7 +10,7 @@ hide:
   }
   
   .column {
-    flex: 16.66%;
+    flex: 33.33%;
     padding: 5px;
   }
 </style>
@@ -42,6 +42,8 @@ hide:
       <figcaption>Gaia</figcaption>
     </figure>
   </div>
+</div>
+<div class="row">
   <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/mirvaish/">
@@ -86,10 +88,6 @@ hide:
         - The collector
         - Kogrin
         - Trianna - warlock of he who walks behind
-        - Warren - retired mercenary worked for Skarda
-        - Chadwick - merchant who led the recent refugee's
-        - Vulcan - leader of the free willed Doppelgangers
-        - Galvin - leader of the commoners before Skarda escaped
         - Aung Htin Kyaw
         - Vordakai
         - Lilnarei the Alchemist
@@ -104,17 +102,18 @@ hide:
         - Hugh Franklin
         - Blôvurr, Bruk 's Father
         - Zsófia priestess of Ariadne
-
+        - Warren - retired mercenary worked for Skarda
+        - Chadwick - merchant who led the recent refugee's
+        - Vulcan - leader of the free willed Doppelgangers
+        - Galvin - leader of the commoners before Skarda escaped
+    
     === "Hostile"
 
         - Staglord
         - Staglord's bandits
-
         - Skarda
         - Skarda 's Mercenaries
-
         - One Evil Yak-Man
-
         - He that walks behind
 
     === "Green Spears"
