@@ -10,6 +10,8 @@ hide:
 
 -   [![Ansa](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg)](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg){ width="400" }
 
+-   <figure markdown>[![Ansa](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg)](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg){ width="400" }<figcaption>Ansa</figcaption></figure><figure markdown>[![Ansa](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg)](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg){ width="400" }<figcaption>Ansa</figcaption></figure>
+
 -   10th Level White Magic Half-Human Witch
     Medium / Lawful Neutral
 
