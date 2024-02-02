@@ -37,19 +37,11 @@ theme:
 nav:
   - Home:
     - index.md
-  - Worlds:
-    - worlds/index.md
   - Adventures:
     - adventures/index.md
     - Group N Campaign: adventures/group-n/index.md
-  - Games:
-    - games/index.md
-  - Blog:
-    - blog/index.md
   - References:
     - references/index.md
-  - About:
-    - about/index.md
     
 # Extensions
 markdown_extensions:
