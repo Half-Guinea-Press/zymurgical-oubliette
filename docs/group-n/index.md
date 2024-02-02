@@ -126,6 +126,10 @@ hide:
 
     ---
 
+    === "Cities"
+
+        - [Moonbright](places/moonbright)
+
 -   ## Things
 
     ---
