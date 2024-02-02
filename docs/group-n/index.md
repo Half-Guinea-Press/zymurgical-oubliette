@@ -11,7 +11,35 @@ hide:
     - Session 1
     - Session 2
     - Session 3
-      
+
+<div class="row">
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:400px;height:400px;">
+      </a>
+      <figcaption>Ansa</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:400px;height:400px;">
+      </a>
+      <figcaption>Ansa</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure markdown>
+      <a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:400px;height:400px;">
+      </a>
+      <figcaption>Ansa</figcaption>
+    </figure>
+  </div>
+</div>
+
+
 <div class="grid cards" markdown>
 
 -   ## Player Characters
