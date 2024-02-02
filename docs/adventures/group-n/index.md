@@ -1,10 +1,26 @@
 # Group N Campaign
 
-## Player Characters
+<div class="grid cards" markdown>
 
-- [Ansa](pc/ansa)
-- Bruk
-- Gaia
-- Mirvaish
-- Nici
-- Norm Man
+-   ## Sessions
+
+    - Session 1
+    - Session 2
+    - Session 3
+
+-   ## Player Characters
+    
+    - [Ansa](pc/ansa)
+    - [Bruk](pc/bruk)
+    - [Gaia](pc/gaia)
+    - [Mirvaish](pc/mirvaish)
+    - [Nici](pc/nici)
+    - [Norm Man](pc/norm man)
+
+-   ## Non-Player Characters
+
+-   ## Organizations
+
+-   ## Locations
+
+</div>
