@@ -37,9 +37,7 @@ theme:
 nav:
   - Home:
     - index.md
-  - Adventures:
-    - adventures/index.md
-    - Group N Campaign: adventures/group-n/index.md
+  - Group N Campaign: group-n/index.md
   - References:
     - references/index.md
     
