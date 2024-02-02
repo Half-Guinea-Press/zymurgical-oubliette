@@ -1,7 +1,6 @@
 site_name: The Zymurgical Oubliette
 theme:
     features:
-#    - toc.integrate
     - navigation.instant
     - navigation.top
     - navigation.tabs
