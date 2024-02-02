@@ -12,6 +12,6 @@ hide:
 
 -   Dwarven Barbarian
 
-    Baron of [Moonbright](/group-n/places/moonbright)
+    Baron of [Moonbright](/zymurgical-oubliette/group-n/places/moonbright)
 
 </div>
