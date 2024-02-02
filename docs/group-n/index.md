@@ -58,7 +58,7 @@ hide:
 
         - Serra - Cleric the healed the common folk and fought the Doppelgangers
 
-    === "Hostile
+    === "Hostile"
 
         - Staglord
         - Staglord's bandits
