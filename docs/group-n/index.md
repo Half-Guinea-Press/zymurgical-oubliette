@@ -3,7 +3,16 @@ hide:
   - navigation
   - toc
 ---
+<style>
+  .row {
+  display: flex;
+}
 
+.column {
+  flex: 16.66%;
+  padding: 5px;
+}
+</style>
 # Group N Campaign
 
 !!! abstract inline end "Session Notes"
