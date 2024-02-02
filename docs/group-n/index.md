@@ -36,8 +36,6 @@ hide:
       </a>
       <figcaption>Ansa</figcaption>
     </figure>
-  </div>
-  <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/bruk/">
         <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/bruk_head.jpg" alt="Bruk" style="width:100%">
@@ -52,10 +50,6 @@ hide:
       </a>
       <figcaption>Gaia</figcaption>
     </figure>
-  </div>
-</div>
-<div class="row">
-  <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/mirvaish/">
         <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/mirvaish_head.jpg" alt="Mirvaish" style="width:100%">
@@ -70,8 +64,6 @@ hide:
       </a>
       <figcaption>Nici</figcaption>
     </figure>
-  </div>
-  <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/norm/">
         <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/norm_man_head.jpg" alt="Norm" style="width:100%">
