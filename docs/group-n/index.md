@@ -33,23 +33,16 @@ hide:
 
         - Gertie 
         - The collector
-        - Skarda
         - Kogrin
-        - Skarda 's Mercenaries
         - Trianna - warlock of he who walks behind
         - Warren - retired mercenary worked for Skarda
         - Chadwick - merchant who led the recent refugee's
         - Vulcan - leader of the free willed Doppelgangers
         - Galvin - leader of the commoners before Skarda escaped
-        - One Evil Yak-Man
         - Aung Htin Kyaw
-        - Blôvurr, Bruk 's Father
-        - Zsófia priestess of Ariadne
         - Vordakai
-        - He that walks behind
         - Lilnarei the Alchemist
         - Filgrit Mountainmaker
-        - Hugh Franklin
         - Chasianna Luis corsair leader of the Elven enclave
         - Xamanthe Silverfire
         - Aecora Silverfire Centaur Nomen tribe War-Priestess
@@ -57,11 +50,21 @@ hide:
     === "Friendly"
 
         - Serra - Cleric the healed the common folk and fought the Doppelgangers
+        - Hugh Franklin
+        - Blôvurr, Bruk 's Father
+        - Zsófia priestess of Ariadne
 
     === "Hostile"
 
         - Staglord
         - Staglord's bandits
+
+        - Skarda
+        - Skarda 's Mercenaries
+
+        - One Evil Yak-Man
+
+        - He that walks behind
 
     === "Green Spears"
 
