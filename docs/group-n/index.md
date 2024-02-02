@@ -21,7 +21,7 @@ hide:
   <div class="column">
     <figure markdown>
       <a href="https://half-guinea-press.github.io/zymurgical-oubliette/group-n/pc/ansa/">
-        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Ansa" style="width:100%">
+        <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-head.jpg" alt="Ansa" style="width:100%">
       </a>
       <figcaption>Ansa</figcaption>
     </figure>
