@@ -13,6 +13,8 @@ hide:
     - Session 2
     - Session 3
 
+-   ## Maps
+
 -   ## Player Characters
     
     - [Ansa](pc/ansa)
