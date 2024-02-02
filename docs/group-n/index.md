@@ -23,18 +23,12 @@ hide:
     - [Nici](pc/nici)
     - [Norm Man](pc/norm)
 
--   ## Non-Player Characters
+-   ## People
 
--   ## Organizations
+-   ## Places
 
--   ## Maps
+-   ## Things
 
--   ## Locations
-
--   ## Magic Items
-
--   ## Artifacts
-
--   ## Important Objects
+-   ## Other
 
 </div>
