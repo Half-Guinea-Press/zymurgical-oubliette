@@ -90,6 +90,9 @@ plugins:
 #  - mermaid2
   - tags
   - blog
+  
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js
