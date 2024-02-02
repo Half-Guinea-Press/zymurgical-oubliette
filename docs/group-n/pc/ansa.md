@@ -8,8 +8,6 @@ hide:
 
 <div class="grid cards" markdown>
 
--   [![Ansa](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-400x400.jpg)](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg)
-
 -   [![Ansa](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg)](https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg){ width="400" }
 
 -   10th Level White Magic Half-Human Witch
