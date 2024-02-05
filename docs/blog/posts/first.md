@@ -4,5 +4,9 @@ categories:
   - First Post
 ---
 
-# Hello world!
-...
+# When the world was just an idea...
+
+
+<!-- more -->
+
+And then it was much more...
