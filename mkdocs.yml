@@ -38,8 +38,8 @@ nav:
   - Home:
     - index.md
   - Group N Campaign: group-n/index.md
-  - References:
-    - references/index.md
+  - Blog: blog/index.md
+  - References: references/index.md
     
 # Extensions
 markdown_extensions:
@@ -85,6 +85,7 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
 plugins:
+  - meta
   - search
 #  - mermaid2
   - tags
