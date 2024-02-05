@@ -37,9 +37,12 @@ theme:
 nav:
   - Home:
     - index.md
-  - Group N Campaign: group-n/index.md
-  - Blog: blog/index.md
-  - References: references/index.md
+  - Group N Campaign: 
+    - group-n/index.md
+  - World Building: 
+    - blog/index.md
+  - References: 
+    - references/index.md
     
 # Extensions
 markdown_extensions:
