@@ -1,5 +1,8 @@
 ---
-date: 2024-02-05 
+date:
+  created: 2024-02-05 
+authors:
+  - The Mad Dungeoneer
 categories:
   - First Post
 ---
