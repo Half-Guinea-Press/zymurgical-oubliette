@@ -4,7 +4,11 @@ date:
 authors:
   - The Mad Dungeoneer
 categories:
-  - First Post
+  - World Building
+  - Game Mechanics
+tags:
+  - Questions
+  - Brainstorming
 ---
 
 # When the world was just an idea...
