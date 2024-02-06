@@ -68,5 +68,6 @@ So here is what I have come up with so far:
 - Very little uses constitution
 - Ability scores
 - Variable amount of crunchiness, combat high, skills low, social low
+- Multiclassing
 
 By no means is this an exhaustive list. And some of these lack context that makes what I wrote make sense to anyone else but me. But it is a start. And I will work my way through the list in no particular order as time moves on.
