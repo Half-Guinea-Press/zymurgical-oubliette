@@ -1,11 +1,12 @@
 ---
 authors:
   - The Mad Dungeoneer
+categories:
+  - Game Design
 tags:
   - TTRPG
   - DND 5e
   - Game Mechanics
-  - Game Design
 date:
   created: 2024-02-06
 ---
