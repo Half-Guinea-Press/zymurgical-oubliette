@@ -1,7 +1,6 @@
 ---
 authors:
   - The Mad Dungeoneer
-categories:
 tags:
   - TTRPG
   - DND 5e
@@ -9,7 +8,6 @@ tags:
   - Game Design
 date:
   created: 2024-02-06
-  updated:
 ---
 
 # Critical interrogation of the broken mechanics in Dungeons and Dragons 5e
