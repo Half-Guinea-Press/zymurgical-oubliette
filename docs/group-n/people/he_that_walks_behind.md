@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,10 +9,9 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/he_that_walks_behind.jpg" alt="" style="width:100%">
 
--   #
+-   Otherworldly Entity
 
     ---
-
         
         - Member of ?
         - Associated with ?
