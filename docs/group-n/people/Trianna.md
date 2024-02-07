@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Trianna.jpg" alt="" style="width:100%">
 
--   Trianna
+-   Warlock of he who walks behind
 
     ---
 
-        - Member of ?
-        - Associated with ?
-        - Warlock of he who walks behind
+    - Member of ?
+    - Associated with ?
 
 </div>
