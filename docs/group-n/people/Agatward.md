@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -11,12 +10,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Agatward.jpg" alt="" style="width:100%">
 
--   Agatward Vanguard of the Green Spears
+-   Vanguard of the Green Spears
 
     ---
 
-        Vanguard of the Green Spears
-        - Member of Pact of the Green Spears
-        - Associated with ?
+    - Member of Pact of the Green Spears
+    - Associated with ?
 
 </div>
