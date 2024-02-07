@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,10 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Warren.jpg" alt="" style="width:100%">
 
--   Warren
+-   Retired mercenary worked for Skarda
 
     ---
-
-        Retired mercenary worked for Skarda
-        - Member of ?
-        - Associated with Skarda (Former Employer)
+    - Member of ?
+    - Associated with Skarda (Former Employer)
 
 </div>
