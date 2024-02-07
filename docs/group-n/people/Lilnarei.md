@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -14,7 +13,7 @@ hide:
 
     ---
 
-        - Member of ?
-        - Associated with ?
+    - Member of ?
+    - Associated with ?
 
 </div>
