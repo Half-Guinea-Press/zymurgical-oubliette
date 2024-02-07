@@ -63,8 +63,6 @@ markdown_extensions:
       permalink: true
 
   # Python Markdown Extensions
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -99,9 +97,6 @@ plugins:
   - blog
 
 extra_javascript:
-#  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
