@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Tessa.jpg" alt="" style="width:100%">
 
--   #
+-   Rogue for the Green Spears
 
     ---
 
-        Rogue for the Green Spears
-        - Member of Pact of the Green Spears
-        - Associated with ?
+    - Member of Pact of the Green Spears
+    - Associated with ?
 
 </div>
