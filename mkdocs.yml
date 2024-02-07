@@ -7,6 +7,7 @@ theme:
     - navigation.tabs.sticky
 #    - navigation.indexes
     - navigation.tracking
+    - navigation.prune
     font:
        text: Playfair Display
        code: Red Hat Mono
