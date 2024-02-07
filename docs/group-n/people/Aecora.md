@@ -14,7 +14,7 @@ hide:
 
     ---
 
-        Centaur Nomen tribe War-Priestess
+    Centaur Nomen tribe War-Priestess
         - Member of Nomen Tribe
         - Associated with ?
 
