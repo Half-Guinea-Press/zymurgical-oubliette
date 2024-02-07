@@ -25,14 +25,14 @@ hide:
 
 -   ## Friendly
 
-    - [Hugh](Hugh.md)
-    - [Serra](Serra.md)
-    - [Zsofia](Zsofia.md)
-    - [Warren](Warren.md)
-    - [Blovurr](Blovurr.md)
-    - [Chadwick](Chadwick.md)
-    - [Galvin](Galvin.md)
-    - [Vulcan](Vulcan.md)
+    - [Hugh](Friendly/Hugh.md)
+    - [Serra](/Friendly/Serra.md)
+    - [Zsofia](/Friendly/Zsofia.md)
+    - [Warren](/Friendly/Warren.md)
+    - [Blovurr](/Friendly/Blovurr.md)
+    - [Chadwick](/Friendly/Chadwick.md)
+    - [Galvin](/Friendly/Galvin.md)
+    - [Vulcan](/Friendly/Vulcan.md)
 
 -   ## Neurtral
 
