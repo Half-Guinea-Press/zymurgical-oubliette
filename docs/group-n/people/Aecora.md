@@ -10,11 +10,10 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Aecora.jpg" alt="" style="width:100%">
 
--   Aecora Silverfire
+-   Centaur Nomen tribe War-Priestess
 
     ---
 
-    Centaur Nomen tribe War-Priestess
         - Member of Nomen Tribe
         - Associated with ?
 
