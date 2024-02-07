@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Vulcan.jpg" alt="" style="width:100%">
 
--   Vulcan
+-   Leader of the free willed Doppelgangers
 
     ---
 
-        Leader of the free willed Doppelgangers
-        - Member of ?
-        - Associated with ?
+    - Member of ?
+    - Associated with ?
 
 </div>
