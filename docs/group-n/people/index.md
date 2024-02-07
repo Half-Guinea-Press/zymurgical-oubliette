@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # People
 
 <div class="grid cards" markdown>
