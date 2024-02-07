@@ -11,21 +11,10 @@ hide:
   }
   
   .column {
-    flex: 20%;
-    padding: 5px;
+    flex: 16%;
+    padding: 3px;
   }
 </style>
-
-!!! abstract inline end "Session Notes"
-
-    - Session 1
-    - Session 2
-    - Session 3
-    - Session 4
-    - Session 5
-    - Session 6
-    - Session 7
-    - Session 8
 
 <div class="row">
   <div class="column">
@@ -71,6 +60,17 @@ hide:
     </figure>
   </div>
 </div>
+
+!!! abstract "Session Notes"
+
+    - Session 1
+    - Session 2
+    - Session 3
+    - Session 4
+    - Session 5
+    - Session 6
+    - Session 7
+    - Session 8
 
 <div class="grid cards" markdown>
 
