@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Staglord.jpg" alt="" style="width:100%">
 
--   The Staglord
+-   Barbarian
 
     ---
 
-        Barbarian
-        - Member of The Staglord's Bandits
-        - Associated with ?
+    - Member of The Staglord's Bandits
+    - Associated with ?
 
 </div>
