@@ -45,6 +45,8 @@ nav:
     - blog/index.md
   - References: 
     - references/index.md
+  - Tags:
+    - tags.md
     
 # Extensions
 markdown_extensions:
@@ -93,6 +95,7 @@ plugins:
   - search
 #  - mermaid2
   - tags
+      tags_file: tags.md
   - blog
 
 extra_javascript:
