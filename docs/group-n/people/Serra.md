@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Serra.jpg" alt="" style="width:100%">
 
--   Serra
+-   Cleric the healed the common folk and fought the Doppelgangers
 
     ---
 
-        Cleric the healed the common folk and fought the Doppelgangers
-        - Member of ?
-        - Associated with Bruk (Fiancee)
+    - Member of ?
+    - Associated with Bruk (Fiancee)
 
 </div>
