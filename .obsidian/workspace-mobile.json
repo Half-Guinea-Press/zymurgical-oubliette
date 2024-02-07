@@ -11,12 +11,8 @@
             "id": "f62d2d2c8f019fb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/adventures/group-n/pc/ansa/ansa_familiars.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/adventures/group-n/pc/ansa/ansa_familiars.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/adventures/group-n/pc/ansa/ansa_familiars.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "docs/adventures/group-n/pc/ansa/ansa_familiars.md"
-          }
+          "state": {}
         }
       }
     ],
