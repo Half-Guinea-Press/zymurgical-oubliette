@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Blovurr.jpg" alt="" style="width:100%">
 
--   #
+-   Dwarf
 
     ---
-
         
-        - Member of ?
-        - Associated with Bruk (Bruk's Father)
+    - Member of ?
+    - Associated with Bruk (Bruk's Father)
 
 </div>
