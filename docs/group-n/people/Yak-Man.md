@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -13,9 +12,8 @@ hide:
 -   One Evil Yak-Man
 
     ---
-
-        
-        - Member of ?
-        - Associated with ?
+       
+    - Member of ?
+    - Associated with ?
 
 </div>
