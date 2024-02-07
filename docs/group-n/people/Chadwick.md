@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Chadwick.jpg" alt="" style="width:100%">
 
--   Chadwick
+-   Merchant who led the recent refugee's
 
     ---
 
-        Merchant who led the recent refugee's
-        - Member of ?
-        - Associated with ?
+    - Member of ?
+    - Associated with ?
 
 </div>
