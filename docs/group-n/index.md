@@ -67,80 +67,33 @@ hide:
   </div>
 </div>
 
-!!! abstract "Session Notes"
+??? abstract "Session 1"
 
-    - Session 1
-    - Session 2
-    - Session 3
-    - Session 4
-    - Session 5
-    - Session 6
-    - Session 7
-    - Session 8
-
-<div class="grid cards" markdown>
-
--   ## People
-
-    ---
-
-    === "Unsorted"
-
-        - Gertie 
-        - The collector
-        - Kogrin
-        - Trianna - warlock of he who walks behind
-        - Aung Htin Kyaw
-        - Vordakai
-        - Lilnarei the Alchemist
-        - Filgrit Mountainmaker
-        - Chasianna Luis corsair leader of the Elven enclave
-        - Xamanthe Silverfire
-        - Aecora Silverfire Centaur Nomen tribe War-Priestess
-
-    === "Friendly"
-
-        - Serra - Cleric the healed the common folk and fought the Doppelgangers
-        - Hugh Franklin
-        - Blôvurr, Bruk 's Father
-        - Zsófia priestess of Ariadne
-        - Warren - retired mercenary worked for Skarda
-        - Chadwick - merchant who led the recent refugee's
-        - Vulcan - leader of the free willed Doppelgangers
-        - Galvin - leader of the commoners before Skarda escaped
     
-    === "Hostile"
 
-        - Staglord
-        - Staglord's bandits
-        - Skarda
-        - Skarda 's Mercenaries
-        - One Evil Yak-Man
-        - He that walks behind
+??? abstract "Session 2"
 
-    === "Green Spears"
+    
 
-        - Siggurd Blacke leader of the Pact of the Green Spear
-        - Otrette Taleneois Sorceress of the Green Spears
-        - Agatward Vanguard of the Green Spears
-        - Tessa Carpathia Rogue for the Green Spears
-        - Eluric Voss cleric of Cuiraécen with the Green Spears
-        - Kekera Kera Totem Warrior with the Green Spears
+??? abstract "Session 3"
 
--   ## Places
+    
 
-    ---
+??? abstract "Session 4"
 
-    === "Cities"
+    
 
-        - [Moonbright](places/moonbright)
+??? abstract "Session 5"
 
--   ## Things
+    
 
-    ---
+??? abstract "Session 6"
 
--   ## Other
+    
 
-    ---
+??? abstract "Session 7"
 
-</div>
+    
+
+??? abstract "Session 8"
+
