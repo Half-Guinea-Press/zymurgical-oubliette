@@ -90,7 +90,8 @@ plugins:
   - search
   - tags:
       tags_file: references/tags.md
-  - blog
+  - blog:
+      blog_dir: worldbuilding
       
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
