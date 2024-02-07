@@ -9,7 +9,7 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Xamanthe.jpg" alt="" style="width:100%">
 
--   
+-   Centaur
 
     ---
 
