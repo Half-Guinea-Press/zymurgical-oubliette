@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,12 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Chasianna.jpg" alt="" style="width:100%">
 
--   Chasianna Luis
+-   Corsair leader of the Elven enclave
 
     ---
-
-        Corsair leader of the Elven enclave
-        - Member of Elven enclave
-        - Associated with ?
+        
+    - Member of Elven enclave
+    - Associated with ?
 
 </div>
