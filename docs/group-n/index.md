@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+# Group N
+
 <style>
   .row {
     display: flex;
@@ -13,8 +15,6 @@ hide:
     padding: 5px;
   }
 </style>
-
-# Group N Campaign
 
 !!! abstract inline end "Session Notes"
 
