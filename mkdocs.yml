@@ -5,7 +5,7 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.indexes
+#    - navigation.indexes
     - navigation.tracking
     font:
        text: Playfair Display
@@ -34,20 +34,20 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-nav:
-  - Home:
-    - index.md
-  - Group N Campaign: 
-    - group-n/index.md
-    - Player Characters: group-n/pc/index.md
-    - People: group-n/people/index.md
-    - Places: group-n/places/index.md
-  - World Building: 
-    - blog/index.md
-  - References: 
-    - references/index.md
-  - Tags:
-    - tags.md
+# nav:
+#  - Home:
+#    - index.md
+#  - Group N Campaign: 
+#    - group-n/index.md
+#    - Player Characters: group-n/pc/index.md
+#    - People: group-n/people/index.md
+#    - Places: group-n/places/index.md
+#  - World Building: 
+#    - blog/index.md
+#  - References: 
+#    - references/index.md
+#  - Tags:
+#    - tags.md
     
 # Extensions
 markdown_extensions:
