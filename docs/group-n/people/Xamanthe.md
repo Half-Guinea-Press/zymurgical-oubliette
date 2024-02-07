@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
@@ -10,11 +9,11 @@ hide:
 
 -   <img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Xamanthe.jpg" alt="" style="width:100%">
 
--   Xamanthe Silverfire
+-   
 
     ---
 
-        - Member of ?
-        - Associated with ?
+    - Member of ?
+    - Associated with ?
 
 </div>
