@@ -26,13 +26,13 @@ hide:
 -   ## Friendly
 
     - [Hugh](Friendly/Hugh.md)
-    - [Serra](/Friendly/Serra.md)
-    - [Zsofia](/Friendly/Zsofia.md)
-    - [Warren](/Friendly/Warren.md)
-    - [Blovurr](/Friendly/Blovurr.md)
-    - [Chadwick](/Friendly/Chadwick.md)
-    - [Galvin](/Friendly/Galvin.md)
-    - [Vulcan](/Friendly/Vulcan.md)
+    - [Serra](Friendly/Serra.md)
+    - [Zsofia](Friendly/Zsofia.md)
+    - [Warren](Friendly/Warren.md)
+    - [Blovurr](Friendly/Blovurr.md)
+    - [Chadwick](Friendly/Chadwick.md)
+    - [Galvin](Friendly/Galvin.md)
+    - [Vulcan](Friendly/Vulcan.md)
 
 -   ## Neurtral
 
@@ -40,9 +40,18 @@ hide:
 
     ---
 
-    - [Staglord](Staglord.md)
-    - [Staglord Bandits](Staglord_bandits.md)
-    - [Skarda](Skarda.md)
-    - [Skarda's Mercenaries](Skardas_Mercenaries.md)
+    - [Staglord](Hostile/Staglord.md)
+    - [Staglord Bandits](Hostile/Staglord_bandits.md)
+    - [Skarda](Hostile/Skarda.md)
+    - [Skarda's Mercenaries](Hostile/Skardas_Mercenaries.md)
 
 -   ## Pact of the Green Spear
+
+    - [Agatward](GreenSpears/Agatward.md)
+    - [Eluric Voss](GreenSpears/Eluric.md)
+    - [Kekera Kera](GreenSpears/Kekera.md)
+    - [Otrette Taleneois](GreenSpears/Otrette.md)
+    - [Siggurd Blacke](GreenSpears/Siggurd.md)
+    - [Tessa Carpathia](GreenSpears/Tessa.md)
+
+</div>
