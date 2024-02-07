@@ -14,7 +14,7 @@ hide:
 
     ---
 
-        - Member of Nomen Tribe
-        - Associated with ?
+    - Member of Nomen Tribe
+    - Associated with ?
 
 </div>
