@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Agatward Vanguard of the Green Spears
+# Agatward
 
 
 <div class="grid cards" markdown>
