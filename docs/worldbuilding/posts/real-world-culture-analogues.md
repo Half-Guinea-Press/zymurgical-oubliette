@@ -8,8 +8,8 @@ tags:
   - Cultures
   - Real World
 date:
-  created: 20240207
-  updated: 20240208
+  created: 2024-02-07
+  updated: 2024-02-08
 draft: true
 ---
 
