@@ -5,7 +5,7 @@ authors:
   - The Mad Dungeoneer
 categories:
   - World Building
-  - Game Mechanics
+  - Game Design
 tags:
   - Questions
   - Brainstorming
