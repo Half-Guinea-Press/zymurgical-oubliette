@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+# Player Characters
+
 <style>
   .row {
     display: flex;
@@ -13,8 +15,6 @@ hide:
     padding: 5px;
   }
 </style>
-
-# Player Characters
 
 <div class="row">
   <div class="column">
