@@ -1,4 +1,5 @@
 # Average Room Sizes
+
 - FOYER
 	- Small - 6 x 6
 	- Medium - 8 x 10
@@ -123,6 +124,9 @@
 	- Small - 10 x 10
 	- Medium - 12 x 12
 	- Large - 14 x 16
+
+   *Based on handout that I found on a website. The file can be downloaded [here](https://half-guinea-press.github.io/zymurgical-oubliette/references/files/room_sizes.pdf) or from the citation below.*
+  Adlai E. Stevenson High School District 125. (n.d.). Room sizes. Average Room Sozes. [https://www2.d125.org/im/ACAD/pdf/room_sizes.pdf](https://www2.d125.org/im/ACAD/pdf/room_sizes.pdf)
 - LIBRARY
 	- Small - 12 x 12
 	- Medium - 14 x 18
