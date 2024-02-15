@@ -45,7 +45,7 @@ hide:
     [Hexes](ansa_hexes): Beckon Familiar, Duplicity, Evil Eye, Obfuscate, Ruin<br>
     White Magic: Bonus Spells, Hex(Remedy), Talisman of Protection, Benevolent Surge<br>
 
--   [Spell Casting](ansa_spells)
+-   [Spell Casting](ansa_spells/index)
 
     ---
 
