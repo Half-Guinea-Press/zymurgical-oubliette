@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Equipment
 
 <div class="grid cards" markdown>
