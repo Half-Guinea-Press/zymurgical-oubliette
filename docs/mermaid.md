@@ -1,4 +1,4 @@
-``` mermaid
+```mermaid
 graph TD;
    A[Process] --> B([Terminal]);
    C{Decision} --> D[/Input/];
