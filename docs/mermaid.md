@@ -6,5 +6,5 @@ flowchart TD;
     G[\Manual Operation/] --> H((On Page Reference));
     I(Alternate Process) --> J[/Data/];
     K{{Preparation}} --> L>Flag];
-    M(((Double Circle))) --> N[Delay);
+    M(((Double Circle)));
 ```
