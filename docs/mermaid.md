@@ -1,5 +1,5 @@
 ``` mermaid
-graph TD;
+graph TD
   A[Process];
   B([Terminal]);
   C{Decision};
