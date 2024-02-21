@@ -136,4 +136,4 @@ As a bonus action, you can charge your weapons with blazing force. Until the sta
 
 ## Source
 
-*DM, M. (2021). Dark tides of bilgewater: Rebalanced: Monkeydm. Patreon. https://www.patreon.com/posts/45669788 *
+*DM, M. (2021). Dark tides of bilgewater: Rebalanced: Monkeydm. Patreon. [https://www.patreon.com/posts/45669788](https://www.patreon.com/posts/45669788)*
