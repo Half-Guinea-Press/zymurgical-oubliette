@@ -5,3 +5,4 @@
 - Adlai E. Stevenson High School District 125. (n.d.). Room sizes. Average Room Sozes. [https://www2.d125.org/im/ACAD/pdf/room_sizes.pdf](https://www2.d125.org/im/ACAD/pdf/room_sizes.pdf)
 - Haeck, J. J. (2024). Legends of Runeterra: Dark Tides of Bilgewater. unk; Bryan Herren. 
 - Van Richten’s guide to Ravenloft. (2021). . Wizards of the Coast, LLC. 
+- DM, M. (2021). Dark tides of bilgewater: Rebalanced: Monkeydm. Patreon. [https://www.patreon.com/posts/45669788](https://www.patreon.com/posts/45669788)
