@@ -4,3 +4,4 @@
 - Arndt, E. (2021). Play Your Next 5E D&D Game with a Friendly Octopod New Playable Race and Feats. Nerdarchy. [https://nerdarchy.com/play-your-next-5e-dd-game-with-a-friendly-octopod-new-playable-race-and-feats/](https://nerdarchy.com/play-your-next-5e-dd-game-with-a-friendly-octopod-new-playable-race-and-feats/)
 - Adlai E. Stevenson High School District 125. (n.d.). Room sizes. Average Room Sozes. [https://www2.d125.org/im/ACAD/pdf/room_sizes.pdf](https://www2.d125.org/im/ACAD/pdf/room_sizes.pdf)
 - Haeck, J. J. (2024). Legends of Runeterra: Dark Tides of Bilgewater. unk; Bryan Herren. 
+- Van Richten’s guide to Ravenloft. (2021). . Wizards of the Coast, LLC. 
