@@ -57,19 +57,19 @@ hide:
 
     ---
 
-Ruined
+    Ruined
 
-Skill Proficiencies: Stealth, Survival
+    Skill Proficiencies: Stealth, Survival
 
-Languages: One of your choice
+    Languages: One of your choice
 
-Equipment: A cracked hourglass, a set of rusty manacles, a half-empty bottle, a hunting trap, a gaming set (matching your chosen proficiency), a set of traveler's clothes, and a pouch containing 13 gp
+    Equipment: A cracked hourglass, a set of rusty manacles, a half-empty bottle, a hunting trap, a gaming set (matching your chosen proficiency), a set of traveler's clothes, and a pouch containing 13 gp
 
-Tool Proficiencies: One gaming set of your choice (such as playing cards or three-dragon ante cards)
+    Tool Proficiencies: One gaming set of your choice (such as playing cards or three-dragon ante cards)
 
-Feature: Still Standing
+    Feature: Still Standing
 
-You have weathered ruinous misfortune, and you possess hidden reserves others don't expect. You gain the Alert, Skilled, or Tough feat (your choice). Your choice of feat reflects how you've dealt with the terrible loss that changed your life forever. If you've kept your senses sharp for every opportunity and climbed your way out of misery by seizing the tiniest scrap of hope, choose Alert. If you've redoubled your efforts to reclaim what was once yours, choose Skilled. If you've stoically persevered through your misfortune, select Tough.
+    You have weathered ruinous misfortune, and you possess hidden reserves others don't expect. You gain the Alert, Skilled, or Tough feat (your choice). Your choice of feat reflects how you've dealt with the terrible loss that changed your life forever. If you've kept your senses sharp for every opportunity and climbed your way out of misery by seizing the tiniest scrap of hope, choose Alert. If you've redoubled your efforts to reclaim what was once yours, choose Skilled. If you've stoically persevered through your misfortune, select Tough.
 
 -   Feats
 
