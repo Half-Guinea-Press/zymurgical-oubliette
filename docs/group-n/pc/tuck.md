@@ -20,7 +20,7 @@ hide:
 
     Prof:    +4 Init:    +10 Spd:     30
 
-    AC:       HP Max:   Hit Dice:3d8, 7d10
+    AC: 18 (Studded Leather) HP Max:   Hit Dice:3d8, 7d10
 
 -   Proficiencies
 
@@ -28,7 +28,7 @@ hide:
 
     Skills: Acrobatics +9, Athletics +6, Deception +10, Insight +7, Intimidation +10, Perception +7, Sleight of Hand +9, Stealth +13, Survival +7
     
-	Tools: Alchemist's Supplies, Thieve's Tools (Expertise), Game Set (Cards)
+    Tools: Alchemist's Supplies, Thieve's Tools (Expertise), Game Set (Cards)
 
     Languages: Common, X, X
 
