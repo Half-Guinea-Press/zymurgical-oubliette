@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Tuck 4-2
+# Estoc 4-2 "Tuck"
 
 <div class="grid cards" markdown>
 
