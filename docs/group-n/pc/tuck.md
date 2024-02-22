@@ -7,7 +7,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   <figure markdown><a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Tuck.jpg"><img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Ansa-1024x1024.jpg" alt="Tuck 4-2" style="width:400px;height:400px;"></a>  <figcaption>Tuck 4-2</figcaption></figure>
+-   <figure markdown><a href="https://half-guinea-press.github.io/zymurgical-oubliette/images/Tuck.jpg"><img src="https://half-guinea-press.github.io/zymurgical-oubliette/images/Tuck.jpg" alt="Tuck 4-2" style="width:400px;height:400px;"></a>  <figcaption>Tuck 4-2</figcaption></figure>
 -   3rd Lvl Rogue Swashbuckler / 7th Level Fighter Renegade
     Medium / Lawful Evil
 
