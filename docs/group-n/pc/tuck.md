@@ -230,4 +230,5 @@ hide:
 
 -   Equipment
 
+<\div>
 
