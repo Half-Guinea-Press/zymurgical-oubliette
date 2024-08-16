@@ -1,5 +1,5 @@
 from flask import Flask
-from src import pages
+from zymoub import pages
 
 def create_app():
     app = Flask(__name__)
