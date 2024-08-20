@@ -84,7 +84,7 @@ main_page = html.Div([
                     is_open=True,
                     dimension="width",
                     style={
-                        "position"="fixed",
+                        "position":"fixed",
                         "top":100,
                         "left":0,
                         "bottom":0,
