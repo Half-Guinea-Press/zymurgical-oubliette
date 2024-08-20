@@ -15,7 +15,7 @@ server = app.server
 # Get Data
 
 @app.callback(Output("sidebars","is_open",allow_duplicate=True),
-    [Input("sidebar-toggle","n_clicks)],
+    [Input("sidebar-toggle","n_clicks")],
     [State("sidebars","is_open")],
     prevent_initial_call=True
     )
