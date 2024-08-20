@@ -99,7 +99,7 @@ main_page = html.Div([
         dbc.Col(
             html.Div([
                 html.Div(id="dd-output-container", style={'paddingTop':'10px'}),
-                html.Div(id='page-content',children=[],style{'display':'block'}),
+                html.Div(id='page-content',children=[],style={'display':'block'}),
             ]),width=9),
         ],style={'paddingTop':'10px'}),
     dcc.Location(id='url')])
