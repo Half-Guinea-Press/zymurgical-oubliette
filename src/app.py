@@ -29,9 +29,9 @@ def toggle_sidebar(n, is_open):
 def render_page_content(pathname):
     if pathname == '/':
         return [dbc.Card([html.H1("This is a test to see if I figured it out or if I am just an idiot!"),])]
-    elif pathname == '/pc/':
+    elif pathname == '/pc':
         return [pc_page]
-    elif pathname == '/character_design/':
+    elif pathname == '/character_design':
         return [character_design_page]
     return dbc.Card([
         html.H1('404: Not found'),
@@ -72,10 +72,11 @@ main_page = html.Div([
                         [
                             dbc.NavLink("Home", href="/", active="exact"),
                             dbc.NavLink("PC", href="/pc", active="exact"),
-                            dbc.NavLink("Character Design", href="/character_design", active="exact"),
+                            dbc.NavLink("Character Design", href="/character_design", active="exact")
                         ],
                         vertical=True,
                         pills=True,
+                        
                     )
                 ],
                 id="sidebars",
