@@ -72,8 +72,8 @@ main_page = html.Div([
                     dbc.Nav(
                         [
                             dbc.NavLink("Home", href="/", active="exact"),
-                            dbc.NavLink("PC", href="/pc/", active="exact"),
-                            dbc.NavLink("Character Design", href="/character_design/", active="exact"),
+                            dbc.NavLink("PC", href="/pc", active="exact"),
+                            dbc.NavLink("Character Design", href="/character_design", active="exact"),
                         ],
                         vertical=True,
                         pills=True,
