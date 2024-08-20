@@ -66,7 +66,7 @@ main_page = html.Div([
     ),
     dbc.Row([
         dbc.Col([
-            dbc.Button("<>",id="sidebar-toggle", className="open", n_clicks=0, style={"zIndex":"+1","position":"relative","top":"=10px"}),
+            dbc.Button("<>",id="sidebar-toggle", n_clicks=0, style={"zIndex":"+1","position":"relative","top":"=10px"}),
             dbc.Collapse(
                 [
                     dbc.Nav(
@@ -80,7 +80,6 @@ main_page = html.Div([
                     )
                 ],
                 id="sidebars",
-                    className="open",
                     is_open=True,
                     dimension="width",
                     style={
