@@ -28,7 +28,7 @@ def toggle_sidebar(n, is_open):
     [Input('url','pathname')])
 def render_page_content(pathname):
     if pathname == '/':
-        return [main_page]
+        return [dbc.Card([html.H1("This is a test to see if I figured it out or if I am just an idiot!"),])]
     elif pathname == '/pc/':
         return [pc_page]
     elif pathname == '/character_design/':
@@ -54,7 +54,6 @@ main_page = html.Div([
                             dbc.Col(dbc.NavbarBrand("Brand Text")),
                         ],
                         align="center",
-                        className="g-0",
                     ),
                     href="/",
                     style={"textDecoration":"none"},
