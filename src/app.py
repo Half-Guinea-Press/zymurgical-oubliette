@@ -103,12 +103,6 @@ main_page = html.Div([
             ),
             width=7
         ),
-        ],
-        style=
-            {
-            "paddingTop":"10px"
-            }
-        ),
         dbc.Col([
             dbc.Button("<>",id="sidebar-toggle2", n_clicks=0, color="primary",className="mb-3"),
             dbc.Collapse(
@@ -127,6 +121,12 @@ main_page = html.Div([
                 ),
             ],
             width=2,
+        ),
+        ],
+        style=
+            {
+            "paddingTop":"10px"
+            }
         ),
     dcc.Location(id="url")])
 
