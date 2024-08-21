@@ -14,18 +14,18 @@ server = app.server
 
 # Get Data
 
-@app.callback(Output("sidebars","is_open"),
-    [Input("sidebar-toggle","n_clicks")],
-    [State("sidebars","is_open")],
+@app.callback(Output("sidebar-left","is_open"),
+    [Input("sidebar-left-toggle","n_clicks")],
+    [State("sidebar-left","is_open")],
     )
 def toggle_sidebar(n, is_open):
     if n:
         return not is_open
     return is_open
     
-@app.callback(Output("sidebars2","is_open"),
-    [Input("sidebar-toggle2","n_clicks")],
-    [State("sidebars2","is_open")],
+@app.callback(Output("sidebar-right","is_open"),
+    [Input("sidebar-right-toggle","n_clicks")],
+    [State("sidebars-right","is_open")],
     )
 def toggle_sidebar2(n, is_open):
     if n:
@@ -76,7 +76,7 @@ main_page = html.Div([
     ]),    
     dbc.Row([
         dbc.Col([
-            dbc.Button("<>",id="sidebar-toggle", n_clicks=0, color="primary",className="mb-3"),
+            dbc.Button("<>",id="sidebar-left-toggle", n_clicks=0, color="primary",className="mb-3"),
             dbc.Collapse(
                 dbc.Nav(
                     [
@@ -87,7 +87,7 @@ main_page = html.Div([
                     vertical=True,
                     pills=True,
                 ),
-                id="sidebars",
+                id="sidebar-left",
                 is_open=True,
                 dimension="width",
                 ),
@@ -104,18 +104,10 @@ main_page = html.Div([
             width=7
         ),
         dbc.Col([
-            dbc.Button("<>",id="sidebar-toggle2", n_clicks=0, color="primary",className="mb-3"),
+            dbc.Button("<>",id="sidebar-right-toggle", n_clicks=0, color="primary",className="mb-3"),
             dbc.Collapse(
-                dbc.Nav(
-                    [
-                        dbc.NavItem(dbc.NavLink("Home", href="/", active="exact")),
-                        dbc.NavItem(dbc.NavLink("PC", href="/pc", active="exact")),
-                        dbc.NavItem(dbc.NavLink("Character Design", href="/character_design", active="exact")),
-                    ],
-                    vertical=True,
-                    pills=True,
-                ),
-                id="sidebars2",
+                dbc.Card("This is the right card!", body=True),
+                id="sidebars-right",
                 is_open=True,
                 dimension="width",
                 ),
