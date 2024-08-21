@@ -25,7 +25,7 @@ def toggle_sidebar(n, is_open):
     
 @app.callback(Output("sidebar-right","is_open"),
     [Input("sidebar-right-toggle","n_clicks")],
-    [State("sidebars-right","is_open")],
+    [State("sidebar-right","is_open")],
     )
 def toggle_sidebar2(n, is_open):
     if n:
@@ -107,7 +107,7 @@ main_page = html.Div([
             dbc.Button("<>",id="sidebar-right-toggle", n_clicks=0, color="primary",className="mb-3"),
             dbc.Collapse(
                 dbc.Card("This is the right card!", body=True),
-                id="sidebars-right",
+                id="sidebar-right",
                 is_open=True,
                 dimension="width",
                 ),
