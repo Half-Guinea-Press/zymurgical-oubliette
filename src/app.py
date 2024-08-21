@@ -17,7 +17,6 @@ server = app.server
 @app.callback(Output("sidebars","is_open",allow_duplicate=True),
     [Input("sidebar-toggle","n_clicks")],
     [State("sidebars","is_open")],
-    prevent_initial_call=True
     )
 def toggle_sidebar(n, is_open):
     if n:
@@ -65,20 +64,17 @@ main_page = html.Div([
     ),
     dbc.Row([
         dbc.Col([
-            dbc.Button("<>",id="sidebar-toggle", n_clicks=0, style={"zIndex":"+1","position":"relative","top":"=10px"}),
+            dbc.Button("<>",id="sidebar-toggle", n_clicks=0, color="primary",className="mb-3"),
             dbc.Collapse(
-                [
-                    dbc.Nav(
-                        [
-                            dbc.NavLink("Home", href="/", active="exact"),
-                            dbc.NavLink("PC", href="/pc", active="exact"),
-                            dbc.NavLink("Character Design", href="/character_design", active="exact")
-                        ],
-                        vertical=True,
-                        pills=True,
-                        
-                    ),
-                ],
+                dbc.Nav(
+                    [
+                        dbc.NavLink("Home", href="/", active="exact"),
+                        dbc.NavLink("PC", href="/pc", active="exact"),
+                        dbc.NavLink("Character Design", href="/character_design", active="exact")
+                    ],
+                    vertical=True,
+                    pills=True,
+                ),
                 id="sidebars",
                 is_open=True,
                 dimension="width",
