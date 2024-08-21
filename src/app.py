@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import json
 
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(external_stylesheets=[dbc.themes.SANDSTONE])
 server = app.server
 
 # Get Data
