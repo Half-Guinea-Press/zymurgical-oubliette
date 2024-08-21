@@ -22,6 +22,15 @@ def toggle_sidebar(n, is_open):
     if n:
         return not is_open
     return is_open
+    
+@app.callback(Output("sidebars2","is_open"),
+    [Input("sidebar-toggle2","n_clicks")],
+    [State("sidebars2","is_open")],
+    )
+def toggle_sidebar2(n, is_open):
+    if n:
+        return not is_open
+    return is_open
 
 @app.callback(Output("page-content","children"),
     [Input("url","pathname")])
@@ -92,13 +101,32 @@ main_page = html.Div([
                 html.Div(id="page-content",children=[],style={"display":"block"}),
                 ]
             ),
-            width=9
+            width=7
         ),
         ],
         style=
             {
             "paddingTop":"10px"
             }
+        ),
+        dbc.Col([
+            dbc.Button("<>",id="sidebar-toggle2", n_clicks=0, color="primary",className="mb-3"),
+            dbc.Collapse(
+                dbc.Nav(
+                    [
+                        dbc.NavItem(dbc.NavLink("Home", href="/", active="exact")),
+                        dbc.NavItem(dbc.NavLink("PC", href="/pc", active="exact")),
+                        dbc.NavItem(dbc.NavLink("Character Design", href="/character_design", active="exact")),
+                    ],
+                    vertical=True,
+                    pills=True,
+                ),
+                id="sidebars2",
+                is_open=True,
+                dimension="width",
+                ),
+            ],
+            width=2,
         ),
     dcc.Location(id="url")])
 
