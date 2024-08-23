@@ -47,7 +47,21 @@ def render_page_content(pathname):
         html.P(f"the pathname {pathname} was not recognized ..."),
         ])
 
-pc_page = html.Div([])
+pc_page = html.Div(
+    [
+    dbc.Row(dbc.Col(html.H1("Valrdis Fossic"))),
+        dbc.Row(
+            [
+                dbc.Col(
+                    [
+                        html.Div(html.Img(src="/images/Valdris Fossic head.jpg"))),
+                        html.Div("
+                dbc.Col(html.Div("One of three columns")),
+                dbc.Col(html.Div("One of three columns")),
+            ]
+        ),
+    ]
+)
 
 character_design_page = html.Div([])
 
@@ -60,7 +74,7 @@ main_page = html.Div([
                         dbc.Row(
                             [
                                 dbc.Col(html.Img(src="", height="30px")),
-                                dbc.Col(dbc.NavbarBrand("Brand Text",className="ms-2")),
+                                dbc.Col(dbc.NavbarBrand("The Nocturnal Campaign",className="ms-2")),
                             ],
                             align="center",
                             className="g-0"
