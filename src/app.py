@@ -55,7 +55,9 @@ pc_page = html.Div(
                 dbc.Col(
                     [
                         html.Div(html.Img(src="/images/Valdris Fossic head.jpg"))),
-                        html.Div("
+                        html.Div("Blood Hunter Lvl 2 (LN)"),
+                    ]
+                ),
                 dbc.Col(html.Div("One of three columns")),
                 dbc.Col(html.Div("One of three columns")),
             ]
