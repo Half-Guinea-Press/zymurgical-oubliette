@@ -54,7 +54,7 @@ pc_page = html.Div(
             [
                 dbc.Col(
                     [
-                        html.Div(html.Img(src="https://github.com/Half-Guinea-Press/zymurgical-oubliette/blob/main/src/images/Valdris%20Fossic%20head.jpg")),
+                        html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg")),
                         html.Div("Blood Hunter Lvl 2 (LN)"),
                     ]
                 ),
