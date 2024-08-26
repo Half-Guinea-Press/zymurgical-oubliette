@@ -122,6 +122,24 @@ character_design_page = html.Div(
                                                 ],
                                             )
                                         ),
+                                        dbc.Col(
+                                            dbc.InputGroup(
+                                                [
+                                                    dbc.DropdownMenu(
+                                                        id="background",
+                                                        label="Character Background",
+                                                        children=[
+                                                            dbc.DropdownMenuItem("Arcano Repo Reaver",id="arcanoRepoReaver"),
+                                                            dbc.DropdownMenuItem("Sage",id="sage"),
+                                                            dbc.DropdownMenuItem("Acolyte",id="acolyte"),
+                                                            dbc.DropdownMenuItem("Anthropologist",id="anthropologist"),
+                                                            dbc.DropdownMenuItem("Charlatan",id="charlatan"),
+                                                        ],
+                                                        className="mb-3",
+                                                    ),
+                                                ],
+                                            )
+                                        ),
                                     ],
                                 ),
                             ],
