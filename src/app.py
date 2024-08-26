@@ -104,7 +104,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="race",
-                                                        label="---Race---",
+                                                        label="Character\nRace",
                                                         children=[
                                                             dbc.DropdownMenuItem("Dhampir",id="dhampir"),
                                                             dbc.DropdownMenuItem("Fettered",id="fettered"),
