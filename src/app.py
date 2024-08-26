@@ -68,7 +68,7 @@ pc_page = html.Div(
 character_design_page = html.Div(
     [
         dbc.Row(
-            dbc.Col(html.H1"Character Builder"),
+            dbc.Col((html.H1"Character Builder"),),
         ),
         dbc.Row(
             [
