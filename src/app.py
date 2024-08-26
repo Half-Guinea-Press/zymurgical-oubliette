@@ -97,66 +97,67 @@ character_design_page = html.Div(
                                     ],
                                     className="mb-3",
                                 ),
-                                dbc.Row(html.Hr()),
-                                dbc.Row(
-                                    [
-                                        dbc.Col(
-                                            dbc.InputGroup(
-                                                [
-                                                    dbc.DropdownMenu(
-                                                        id="race",
-                                                        label="Race",
-                                                        children=[
-                                                            dbc.DropdownMenuItem("Dhampir",id="dhampir"),
-                                                            dbc.DropdownMenuItem("Fettered",id="fettered"),
-                                                            dbc.DropdownMenuItem("Gargoyle",id="gargoyle"),
-                                                            dbc.DropdownMenuItem("Living Vampire",id="livingVampire"),
-                                                        ],
-                                                        className="mb-3",
-                                                    ),
-                                                ]
+                            ]
+                        ),
+                        dbc.Row(html.Hr()),
+                        dbc.Row(
+                            [
+                                dbc.Col(
+                                    dbc.InputGroup(
+                                        [
+                                            dbc.DropdownMenu(
+                                                id="race",
+                                                label="Race",
+                                                children=[
+                                                    dbc.DropdownMenuItem("Dhampir",id="dhampir"),
+                                                    dbc.DropdownMenuItem("Fettered",id="fettered"),
+                                                    dbc.DropdownMenuItem("Gargoyle",id="gargoyle"),
+                                                    dbc.DropdownMenuItem("Living Vampire",id="livingVampire"),
+                                                ],
+                                                className="mb-3",
                                             ),
-                                        ),
-                                        dbc.Col(
-                                            dbc.InputGroup(
-                                                [
-                                                    dbc.DropdownMenu(
-                                                        id="startingClass",
-                                                        label="Class",
-                                                        children=[
-                                                            dbc.DropdownMenuItem("Artificer",id="artificer"),
-                                                            dbc.DropdownMenuItem("Alchemist",id="alchemist"),
-                                                            dbc.DropdownMenuItem("Bard",id="bard"),
-                                                            dbc.DropdownMenuItem("Blood Hunter",id="bloodHunter"),
-                                                            dbc.DropdownMenuItem("Monk",id="monk"),
-                                                        ],
-                                                        className="mb-3",
-                                                    ),
+                                        ]
+                                    ),
+                                ),
+                                dbc.Col(
+                                    dbc.InputGroup(
+                                        [
+                                            dbc.DropdownMenu(
+                                                id="startingClass",
+                                                label="Class",
+                                                children=[
+                                                    dbc.DropdownMenuItem("Artificer",id="artificer"),
+                                                    dbc.DropdownMenuItem("Alchemist",id="alchemist"),
+                                                    dbc.DropdownMenuItem("Bard",id="bard"),
+                                                    dbc.DropdownMenuItem("Blood Hunter",id="bloodHunter"),
+                                                    dbc.DropdownMenuItem("Monk",id="monk"),
                                                 ],
-                                            )
-                                        ),
-                                        dbc.Col(
-                                            dbc.InputGroup(
-                                                [
-                                                    dbc.DropdownMenu(
-                                                        id="background",
-                                                        label="Background",
-                                                        children=[
-                                                            dbc.DropdownMenuItem("Arcano Repo Reaver",id="arcanoRepoReaver"),
-                                                            dbc.DropdownMenuItem("Sage",id="sage"),
-                                                            dbc.DropdownMenuItem("Acolyte",id="acolyte"),
-                                                            dbc.DropdownMenuItem("Anthropologist",id="anthropologist"),
-                                                            dbc.DropdownMenuItem("Charlatan",id="charlatan"),
-                                                        ],
-                                                        className="mb-3",
-                                                    ),
+                                                className="mb-3",
+                                            ),
+                                        ],
+                                    )
+                                ),
+                                dbc.Col(
+                                    dbc.InputGroup(
+                                        [
+                                            dbc.DropdownMenu(
+                                                id="background",
+                                                label="Background",
+                                                children=[
+                                                    dbc.DropdownMenuItem("Arcano Repo Reaver",id="arcanoRepoReaver"),
+                                                    dbc.DropdownMenuItem("Sage",id="sage"),
+                                                    dbc.DropdownMenuItem("Acolyte",id="acolyte"),
+                                                    dbc.DropdownMenuItem("Anthropologist",id="anthropologist"),
+                                                    dbc.DropdownMenuItem("Charlatan",id="charlatan"),
                                                 ],
-                                            )
-                                        ),
-                                    ],
+                                                className="mb-3",
+                                            ),
+                                        ],
+                                    )
                                 ),
                             ],
                         ),
+                        dbc.Row(html.Hr()),
                         dbc.Row([]),
                     ]
                 ),
