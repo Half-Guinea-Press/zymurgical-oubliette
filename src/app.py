@@ -133,6 +133,8 @@ character_design_page = html.Div(
                     [
                     ]
                 ),
+            ]
+        )
     ],
 )
 
