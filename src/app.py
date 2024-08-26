@@ -77,8 +77,9 @@ character_design_page = html.Div(
                 dbc.InputGroup(
                     [
                         dbc.InputGroupText("Character Level"),
-                        dbc.Input(id="characterLvl",type="number", min=0, max=20, step=1,className="mb-3",),
-                    ]
+                        dbc.Input(id="characterLvl",type="number", min=0, max=20, step=1),
+                    ],
+                    className="mb-3",
                 ),
                 dbc.InputGroup(
                     [
@@ -87,9 +88,9 @@ character_design_page = html.Div(
                             label="Character Race",
                             children=[
                                 dbc.DropdownMenuItem("Dhampir",id="dhampir"),
-                                dbc.DropdownMenuItem("Fettered"id="fettered"),
-                                dbc.DropdownMenuItem("Gargoyle"id="gargoyle"),
-                                dbc.DropdownMenuItem("Living Vampire"id="livingVampire"),
+                                dbc.DropdownMenuItem("Fettered",id="fettered"),
+                                dbc.DropdownMenuItem("Gargoyle",id="gargoyle"),
+                                dbc.DropdownMenuItem("Living Vampire",id="livingVampire"),
                             ],
                             className="mb-3",
                         ),
@@ -101,11 +102,11 @@ character_design_page = html.Div(
                             id="startingClass",
                             label="Character Class",
                             children=[
-                                dbc.DropdownMenuItem("Artificer"id="artificer"),
-                                dbc.DropdownMenuItem("Alchemist"id="alchemist"),
-                                dbc.DropdownMenuItem("Bard"id="bard"),
-                                dbc.DropdownMenuItem("Blood Hunter"id="bloodHunter"),
-                                dbc.DropdownMenuItem("Monk"id="monk"),
+                                dbc.DropdownMenuItem("Artificer",id="artificer"),
+                                dbc.DropdownMenuItem("Alchemist",id="alchemist"),
+                                dbc.DropdownMenuItem("Bard",id="bard"),
+                                dbc.DropdownMenuItem("Blood Hunter",id="bloodHunter"),
+                                dbc.DropdownMenuItem("Monk",id="monk"),
                             ],
                             className="mb-3",
                         ),
