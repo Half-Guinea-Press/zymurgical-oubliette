@@ -104,7 +104,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="race",
-                                                        label="Character\nRace",
+                                                        label="Race",
                                                         children=[
                                                             dbc.DropdownMenuItem("Dhampir",id="dhampir"),
                                                             dbc.DropdownMenuItem("Fettered",id="fettered"),
@@ -121,7 +121,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="startingClass",
-                                                        label="---Class---",
+                                                        label="Class",
                                                         children=[
                                                             dbc.DropdownMenuItem("Artificer",id="artificer"),
                                                             dbc.DropdownMenuItem("Alchemist",id="alchemist"),
@@ -139,7 +139,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="background",
-                                                        label="-Background-",
+                                                        label="Background",
                                                         children=[
                                                             dbc.DropdownMenuItem("Arcano Repo Reaver",id="arcanoRepoReaver"),
                                                             dbc.DropdownMenuItem("Sage",id="sage"),
