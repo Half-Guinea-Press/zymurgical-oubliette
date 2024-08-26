@@ -76,8 +76,20 @@ character_design_page = html.Div(
                     [
                         dbc.Row(
                             [
-                                dbc.InputGroup([dbc.Input(id="characterName",placeholder="Character Name",),],className="mb-3",),
-                                dbc.InputGroup([dbc.Input(id="playerName",placeholder="Player Name",),],className="mb-3",),
+                                dbc.InputGroup(
+                                    [
+                                        dbc.InputGroupText("Character Name"),
+                                        dbc.Input(placeholder="Character Name")                                        
+                                    ],
+                                    className="mb-3",
+                                ),
+                                dbc.InputGroup(
+                                    [
+                                        dbc.InputGroupText("Player Name"),
+                                        dbc.Input(id="playerName"),
+                                    ],
+                                    className="mb-3",
+                                ),
                                 dbc.InputGroup(
                                     [
                                         dbc.InputGroupText("Character Level"),
@@ -92,7 +104,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="race",
-                                                        label="Character Race",
+                                                        label="Race",
                                                         children=[
                                                             dbc.DropdownMenuItem("Dhampir",id="dhampir"),
                                                             dbc.DropdownMenuItem("Fettered",id="fettered"),
@@ -109,7 +121,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="startingClass",
-                                                        label="Character Class",
+                                                        label="Class",
                                                         children=[
                                                             dbc.DropdownMenuItem("Artificer",id="artificer"),
                                                             dbc.DropdownMenuItem("Alchemist",id="alchemist"),
@@ -127,7 +139,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="background",
-                                                        label="Character Background",
+                                                        label="Background",
                                                         children=[
                                                             dbc.DropdownMenuItem("Arcano Repo Reaver",id="arcanoRepoReaver"),
                                                             dbc.DropdownMenuItem("Sage",id="sage"),
