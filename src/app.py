@@ -97,6 +97,7 @@ character_design_page = html.Div(
                                     ],
                                     className="mb-3",
                                 ),
+                                dbc.Row(html.Hr()),
                                 dbc.Row(
                                     [
                                         dbc.Col(
