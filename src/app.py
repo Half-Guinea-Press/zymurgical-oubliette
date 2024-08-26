@@ -79,7 +79,7 @@ character_design_page = html.Div(
                                 dbc.InputGroup(
                                     [
                                         dbc.InputGroupText("Character Name"),
-                                        dbc.Input(placeholder="Character Name")                                        
+                                        dbc.Input(id="characterName")                                        
                                     ],
                                     className="mb-3",
                                 ),
@@ -104,7 +104,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="race",
-                                                        label="Race",
+                                                        label="---Race---",
                                                         children=[
                                                             dbc.DropdownMenuItem("Dhampir",id="dhampir"),
                                                             dbc.DropdownMenuItem("Fettered",id="fettered"),
@@ -121,7 +121,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="startingClass",
-                                                        label="Class",
+                                                        label="---Class---",
                                                         children=[
                                                             dbc.DropdownMenuItem("Artificer",id="artificer"),
                                                             dbc.DropdownMenuItem("Alchemist",id="alchemist"),
@@ -139,7 +139,7 @@ character_design_page = html.Div(
                                                 [
                                                     dbc.DropdownMenu(
                                                         id="background",
-                                                        label="Background",
+                                                        label="-Background-",
                                                         children=[
                                                             dbc.DropdownMenuItem("Arcano Repo Reaver",id="arcanoRepoReaver"),
                                                             dbc.DropdownMenuItem("Sage",id="sage"),
