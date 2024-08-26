@@ -72,8 +72,8 @@ character_design_page = html.Div(
         ),
         dbc.Row(
             [
-                dbc.InputGroup([dbc.Input(id="characterName",placeholder="Character Name",],className="mb-3",),),
-                dbc.InputGroup([dbc.Input(id="playerName",placeholder="Player Name",],className="mb-3",),),
+                dbc.InputGroup([dbc.Input(id="characterName",placeholder="Character Name",),],className="mb-3",),
+                dbc.InputGroup([dbc.Input(id="playerName",placeholder="Player Name",),],className="mb-3",),
                 dbc.InputGroup(
                     [
                         dbc.InputGroupText("Character Level"),
