@@ -354,22 +354,21 @@ character_design_page = html.Div(
                         dbc.Row(html.Hr()),
                         dbc.Row(html.Br()),
                         dbc.Accordion(
-                                [
-                                    dbc.AccordionItem(
-                                        "This is the content of the first section",
-                                        title="Item 1",
-                                    ),
-                                    dbc.AccordionItem(
-                                        "This is the content of the second section",
-                                        title="Item 2",
-                                    ),
-                                    dbc.AccordionItem(
-                                        "This is the content of the third section",
-                                        title="Item 3",
-                                    ),
-                                ],
-                                always_open=True,
-                            )
+                            [
+                                dbc.AccordionItem(
+                                    "This is the content of the first section",
+                                    title="Item 1",
+                                ),
+                                dbc.AccordionItem(
+                                    "This is the content of the second section",
+                                    title="Item 2",
+                                ),
+                                dbc.AccordionItem(
+                                    "This is the content of the third section",
+                                    title="Item 3",
+                                ),
+                            ],
+                            always_open=True,
                         ),
                     ]
                 ),
