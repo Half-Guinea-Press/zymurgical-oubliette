@@ -1,0 +1,587 @@
+{
+    "pc": [
+        {
+            "name": "Valrdis Fossic",
+            "player": "Madilyn",
+            "characterLvl": 2,
+            "race": "Dhampir",
+            "subrace": null,
+            "background": "Arcane Repo Reaper",
+            "class": {
+                "startingClass":"Blood Hunter",
+                "startingClassLvl":2,
+                "startingSubClass":null,
+                "multiclass":false,
+                "multiclassClasses": [],
+            },
+            "alignment": "LN",
+            "inspiration": 0,
+            "abilityScores": {
+                "str": {
+                    "baseScore": 18,
+                    "racialModifier": 2,
+                    "other": [],
+                },
+                "dex": {
+                    "baseScore": 16,
+                    "racialModifier": 0,
+                    "other": [],
+                },
+                "con": {
+                    "baseScore": 17,
+                    "racialModifier": 1,
+                    "other": [],
+                },
+                "int": {
+                    "baseScore": 16,
+                    "racialModifier": 0,
+                    "other": [],
+                },
+                "wis": {
+                    "baseScore": 16,
+                    "racialModifier": 0,
+                    "other": [],
+                },
+                "chr": {
+                    "baseScore": 14,
+                    "racialModifier": 0,
+                    "other": [],
+                }
+            },
+            "proficiencyBonus": 2,
+            "proficiencies": {
+                "savingThrows": {
+                    "strSave": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "special": null
+                    },
+                    "dexSave": {
+                        "proficient": true,
+                        "proficiencySource": "Class",
+                        "special": null
+                    },
+                    "conSave": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "special": null
+                    },
+                    "intSave": {
+                        "proficient": true,
+                        "proficiencySource": "Class",
+                        "special": null
+                    },
+                    "wisSave": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "special": null
+                    },
+                    "chrSave": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "special": null
+                    },
+                    "specialSave": [
+                        {
+                            "specialSaveName": null,
+                            "description": null
+                        }
+                    ]
+                },
+                "skills": {
+                    "acrobatics": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "animalHandling": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "arcana": {
+                        "proficient": true,
+                        "proficiencySource": "Background",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "athletics": {
+                        "proficient": true,
+                        "proficiencySource": "Class",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "deception": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "history": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "insight": {
+                        "proficient": true,
+                        "proficiencySource": "Class",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "intimidation": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "investigation": {
+                        "proficient": true,
+                        "proficiencySource": "Background",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "medicine": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "nature": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "perception": {
+                        "proficient": true,
+                        "proficiencySource": "Race",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "performance": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "persuasion": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "religion": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "sleightOfHand": {
+                        "proficient": false,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "stealth": {
+                        "proficient": true,
+                        "proficiencySource": "Race",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    "survival": {
+                        "proficient": true,
+                        "proficiencySource": "Class",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    }
+                },
+                "tools": [
+                    {
+                        "toolName": "Alchemist's Tools",
+                        "proficiencySource": "Class",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    },
+                    {
+                        "toolName": "Thieves' Tools",
+                        "proficiencySource": "Background",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    }
+                ],
+                "musicalInstrument": [
+                    {
+                        "instrumentName": null,
+                        "proficiencySource": null,
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    }
+                ],
+                "gameSet": [
+                    {
+                        "gameSetName": "Dice",
+                        "proficiencySource": "Background",
+                        "expertice": false,
+                        "experticeSource": null,
+                        "special": null
+                    }
+                ],
+                "armor": {
+                    "lightArmor": true,
+                    "mediumArmor": true,
+                    "heavyArmor": false,
+                    "shield": true,
+                    "noMetalArmor": false
+                },
+                "weapons": {
+                    "simpleWeapons": {
+                        "proficient": true,
+                        "proficiencySource": "Class"
+                    },
+                    "martialWeapons": {
+                        "proficient": true,
+                        "proficiencySource": "Class"
+                    },
+                    "monkWeapons": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "clubs": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "daggers": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "darts": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "firearms": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "hand crossbows": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "javelins": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "light crossbows": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "longswords": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "maces": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "quarterstaffs": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "rapiers": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "scimitars": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "shortswords": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "sickles": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "slings": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "spears": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "exoticWeapon": [
+                        {
+                            "weaponName": "Name",
+                            "proficient": false,
+                            "proficiencySource": "Source"
+                        }
+                    ],
+                    "unarmedStrikes": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    },
+                    "improvisedWeapons": {
+                        "proficient": false,
+                        "proficiencySource": "Source"
+                    }
+                },
+                "languages": ["Common"]
+            },
+            "feats": [
+                {
+                    "featName": null,
+                    "featDescription": null
+                }
+            ],
+            "features": [
+                {
+                    "featureName": "Name",
+                    "featureDescription": "Description",
+                    "featureSource": "Source"
+                }
+            ],
+            "resistances":{},
+            "immunities":{},
+            "armorClass": {
+                "armorClassValue": 1,
+                "armorEquiped": "Armor",
+                "sheildEquiped": true
+            },
+            "initiative": {
+                "initiativeValue": 1,
+                "special": null
+            },
+            "speed": {
+                "walkingSpeed": {
+                    "Base": 35,
+                    "Source": "Race",
+                    "Modifier": []
+                },
+                "climbingSpeed": {
+                    "Base": 35,
+                    "Source": "Race",
+                    "Modifier": []
+                },
+                "flyingSpeed": {
+                    "Base": 0,
+                    "Source": null,
+                    "Modifier": []
+                },
+                "swimmingSpeed": {
+                    "Base": 0,
+                    "Source": null,
+                    "Modifier": []
+                },
+                "otherSpeed": [
+                    {
+                        "otherSpeedName": null,
+                        "Base": 0,
+                        "Source": null,
+                        "Modifier": []
+                    }
+                ]
+            },
+            "hitPoints": {
+                "hitPointModifier":[],
+                "hitPointMax": 0,
+                "hitDice": {
+                    "hitDiceAmount": 2,
+                    "hitDieType": "1d10"
+                }
+            },
+            "traits": {
+                "personality": "Personality",
+                "ideals": "Ideals",
+                "bonds": "Bonds",
+                "flaws": "Flaws"
+            },
+            "actionTypess": {
+                "action":{
+                    "attack": [
+                        {
+                            "attackName": "Name",
+                            "attackType": "Type",
+                            "itemUsed": "Item",
+                            "resourceExpended": "Resource",
+                            "featureUsed": "Feature",
+                            "damageDie": "1d4",
+                            "damageModifier": {
+                                "modifierAmount": "Amount",
+                                "modifierSource": "Source"
+                            },
+                            "damageType": "Damage Type",
+                            "statusEffect": "Status effect",
+                            "special": null
+                        },
+                    ],
+                    "castSpell":{},
+                    "dash":{},
+                    "disengage":{},
+                    "dodge":{},
+                    "escape":{},
+                    "grapple":{},
+                    "help":{},
+                    "hide":{},
+                    "improvisedAction":{},
+                    "ready":{},
+                    "search":{},
+                    "shove":{},
+                    "useClassFeature":{}
+                    "useObject":{},
+                    "useShield":{},
+                },
+                "bonusAction":{
+                    "castSpell":{},
+                    "offhandAttack":{},
+                    "useClassFeature":{}
+                },
+                "reaction":{
+                    "castSpell":{},
+                    "readiedAction":{},
+                    "opportunityAttack":{}
+                },
+                "movement":{
+                    "move":{},
+                    "dropProne":{},
+                    "highJump":{},
+                    "difficultTerrain":{},
+                    "climb":{},
+                    "crawl":{},
+                    "longJump":{},
+                    "grappleMove":{},
+                    "swim":{},
+                    "standUp":{},
+                    "improvoseMovement":{}
+                },
+            },
+            "spellCasting": {
+                "spellCastingClass":null,
+                "spellCastingAbility":null,
+                "spellSave":0,
+                "spellAttack":0,
+                "ritualCasting":false,
+                "spellCastingFocus":false,
+                "spellPreparation":null,
+                "cantrips":{
+                    "numberOfCantrips":0,
+                    "cantripsKnown":[]
+                },
+                "spellSlots":{
+                    "1stLevel":0,
+                    "2ndLevel":0,
+                    "3rdLevel":0,
+                    "4thLevel":0,
+                    "5thLevel":0,
+                    "6thLevel":0,
+                    "7thLevel":0,
+                    "8thLevel":0,
+                    "9thLevel":0
+                },
+                "spellsKnown":{
+                    "1stLevel":{},
+                    "2ndLevel":{},
+                    "3rdLevel":{},
+                    "4thLevel":{},
+                    "5thLevel":{},
+                    "6thLevel":{},
+                    "7thLevel":{},
+                    "8thLevel":{},
+                    "9thLevel":{}
+                },                
+            },
+            "equipment": [
+                {
+                    "itemName": "Name",
+                    "itemType": "Type",
+                    "itemSubType": "SubType",
+                    "itemCost": "Cost",
+                    "itemWeight": 1,
+                    "itemDescription": "Description",
+                    "itemFeatures": [
+                        {
+                            "featureName": "Name",
+                            "featureDescription": "Description"
+                        }
+                    ],
+                    "itemLocation": "Location",
+                    "itemInfoSource": "Source"
+                }
+            ]
+        }
+    ],
+    "race": {
+        "Dhampir": {
+            "Ability Score Modifier": {
+                "Choice a": {
+                    "Choose +2": 2,
+                    "Choose +1": 1
+                },
+                "Choice b": {
+                    "Choose first +1": 1,
+                    "Choose second +1": 1,
+                    "Choose third +1": 1
+                }
+            },
+            "Size": {
+                "Choose a": "Medium",
+                "Choose b": "Small"
+            },
+            "Speed": {
+                "Walking Speed": 35,
+                "Climbing Speed": 35,
+            },
+            "Racial Features": {
+                "Ancestral Legacy": {
+                    "Description": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.\n\nIf you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.", 
+                    "Mechanics": {}
+                    },
+                "Darkvision" : {
+                    "Description":"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.", 
+                    "Mechanics": {}
+                    },
+                "Deathless Nature": {
+                    "Description":"You don't need to breathe.", 
+                    "Mechanics": {}
+                    },
+                "Spider Climb": {
+                    "Description":"You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.", 
+                    "Mechanics": {}
+                    },
+                "Vampiric Bite": {
+                    "Description":"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.\n\nWhen you attack with this bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice:\n\nYou regain hit points equal to the piercing damage dealt by the bite.\nYou gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite\nYou can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.", 
+                    "Mechanics": {}
+                    },
+            },
+            "Languages": {
+                "Known": ["Common"],
+                "Choose": 1
+            },
+            "Source": "Van Richten's Guide to Ravenloft"
+        }
+    }
+}
