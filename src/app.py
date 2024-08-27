@@ -102,12 +102,13 @@ character_design_page = html.Div(
                         dbc.Row(html.Hr()),
                         dbc.Row(
                             [
-                                dbc.Col(
+                                html.Div(dbc.Col(
                                     dcc.Dropdown(
                                         id="race",
                                         ["Dhampir","Fettered","Gargoyle","Living Vampire"],
                                         placeholder="Character Race",
                                     ),
+                                ),
                                 ),
                                 dbc.Col(
                                     dbc.InputGroup(
