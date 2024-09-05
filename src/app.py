@@ -185,7 +185,7 @@ pc_page = html.Div(
                                             ]
                                         )
                                     ],
-                                    width=4,
+                                    width=3,
                                 )
                             ]
                         ),
