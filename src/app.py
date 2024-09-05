@@ -56,61 +56,55 @@ pc_page = html.Div(
                     [
                         dbc.Row(
                             [
-                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=3),
+                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=4),
                                 dbc.Col(
                                     [
                                         html.H4("Blood Hunter Lvl 2"),
-                                        html.P(
-                                            "Dhampyr "
-                                            "Lawfull Neutral "
-                                            "Medium"
-                                        ),
-                                    ],width=5
+                                        html.P("Dhampyr<br>Lawfull Neutral<br>Medium"),
+                                    ],width=4
                                 )
                             ]
                         ),
                         dbc.Row(
                             [
-                                dbc.Col(
+                                dbc.Table(
                                     [
-                                        html.H4("Str"),
-                                        html.P("20"),
-                                        html.P("+5"),
-                                    ]
-                                ),
-                                dbc.Col(
-                                    [
-                                        html.H4("Dex"),
-                                        html.P("20"),
-                                        html.P("+5"),
-                                    ]
-                                ),
-                                dbc.Col(
-                                    [
-                                        html.H4("Con"),
-                                        html.P("20"),
-                                        html.P("+5"),
-                                    ]
-                                ),
-                                dbc.Col(
-                                    [
-                                        html.H4("Int"),
-                                        html.P("20"),
-                                        html.P("+5"),
-                                    ]
-                                ),
-                                dbc.Col(
-                                    [
-                                        html.H4("Wis"),
-                                        html.P("20"),
-                                        html.P("+5"),
-                                    ]
-                                ),
-                                dbc.Col(
-                                    [
-                                        html.H4("Chr"),
-                                        html.P("20"),
-                                        html.P("+5"),
+                                        html.Thead(
+                                            html.Tr(
+                                                [
+                                                    html.Th("STR"),
+                                                    html.Th("STR"),
+                                                    html.Th("STR"),
+                                                    html.Th("STR"),
+                                                    html.Th("STR"),
+                                                    html.Th("STR"),
+                                                ]
+                                            )
+                                        ),
+                                        html.Tbody(
+                                            [
+                                                html.Tr(
+                                                    [
+                                                        html.Td("20"),
+                                                        html.Td("20"),
+                                                        html.Td("20"),
+                                                        html.Td("20"),
+                                                        html.Td("20"),
+                                                        html.Td("20"),
+                                                    ]
+                                                ),
+                                                html.Tr(
+                                                    [
+                                                        html.Td("+5"),
+                                                        html.Td("+5"),
+                                                        html.Td("+5"),
+                                                        html.Td("+5"),
+                                                        html.Td("+5"),
+                                                        html.Td("+5"),
+                                                    ]
+                                                ),
+                                            ]
+                                        ),
                                     ]
                                 ),
                             ]
