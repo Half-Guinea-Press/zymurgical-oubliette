@@ -86,37 +86,37 @@ pc_page = html.Div(
                                                     [
                                                         html.Tr(
                                                             [
-                                                                html.Td("Strength"),
+                                                                html.Td("STR"),
                                                                 html.Td("20(+5)"),
                                                             ]
                                                         ),
                                                         html.Tr(
                                                             [
-                                                                html.Td("Dexterity"),
+                                                                html.Td("DEX"),
                                                                 html.Td("20(+5)"),
                                                             ]
                                                         ),
                                                         html.Tr(
                                                             [
-                                                                html.Td("Constitution"),
+                                                                html.Td("CON"),
                                                                 html.Td("20(+5)"),
                                                             ]
                                                         ),
                                                         html.Tr(
                                                             [
-                                                                html.Td("Intelligence"),
+                                                                html.Td("INT"),
                                                                 html.Td("20(+5)"),
                                                             ]
                                                         ),
                                                         html.Tr(
                                                             [
-                                                                html.Td("Wisdom"),
+                                                                html.Td("WIS"),
                                                                 html.Td("20(+5)"),
                                                             ]
                                                         ),
                                                         html.Tr(
                                                             [
-                                                                html.Td("Charisma"),
+                                                                html.Td("CHR"),
                                                                 html.Td("20(+5)"),
                                                             ]
                                                         ),
