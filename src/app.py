@@ -54,12 +54,102 @@ pc_page = html.Div(
             [
                 dbc.Col(
                     [
-                        html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg")),
-                        html.Div("Blood Hunter Lvl 2 (LN)"),
+                        dbc.Row(
+                            [
+                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg", height="30px")),]),
+                                dbc.Col(
+                                    [
+                                        html.H3("Blood Hunter Lvl 2"),
+                                        html.P("Dhampyr"),
+                                        html.P("Lawfull Neutral"),
+                                        html.P("Medium"),
+                                    ]
+                                )
+                            ]
+                        ),
+                        dbc.Row(
+                            [
+                                dbc.Col(
+                                    [
+                                        html.H4("Str"),
+                                        html.P("20"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Dex"),
+                                        html.P("20"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Con"),
+                                        html.P("20"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Int"),
+                                        html.P("20"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Wis"),
+                                        html.P("20"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Chr"),
+                                        html.P("20"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                            ]
+                        ),
+                        dbc.Row(
+                            [
+                                dbc.Col(
+                                    [
+                                        html.H4("AC"),
+                                        html.P("16"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Init"),
+                                        html.P("+5"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Spd"),
+                                        html.P("30"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("HP"),
+                                        html.P("20"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        html.H4("Prof."),
+                                        html.P("+2"),
+                                    ]
+                                ),
+                            ]
+                        ),
                     ]
                 ),
-                dbc.Col(html.Div("One of three columns")),
-                dbc.Col(html.Div("One of three columns")),
+                dbc.Col(html.Div("One of two columns")),
             ]
         ),
     ]
