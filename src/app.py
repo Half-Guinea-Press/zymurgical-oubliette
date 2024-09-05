@@ -93,27 +93,17 @@ pc_page = html.Div(
                                             [
                                                 html.Tr(
                                                     [
-                                                        html.Td("20"),
-                                                        html.Td("20"),
-                                                        html.Td("20"),
-                                                        html.Td("20"),
-                                                        html.Td("20"),
-                                                        html.Td("20"),
-                                                    ]
-                                                ),
-                                                html.Tr(
-                                                    [
-                                                        html.Td("+5"),
-                                                        html.Td("+5"),
-                                                        html.Td("+5"),
-                                                        html.Td("+5"),
-                                                        html.Td("+5"),
-                                                        html.Td("+5"),
+                                                        html.Td("20(+5)"),
+                                                        html.Td("20(+5)"),
+                                                        html.Td("20(+5)"),
+                                                        html.Td("20(+5)"),
+                                                        html.Td("20(+5)"),
+                                                        html.Td("20(+5)"),
                                                     ]
                                                 ),
                                             ]
                                         ),
-                                    ],bordered=True,
+                                    ],bordered=True,striped=True
                                 ),
                             ]
                         ),
@@ -145,7 +135,7 @@ pc_page = html.Div(
                                                 ),
                                             ]
                                         ),
-                                    ],bordered=True,
+                                    ],bordered=True,striped=True
                                 ),
                             ]
                         ),
@@ -165,16 +155,101 @@ pc_page = html.Div(
                         dbc.Row(
                             [
                                 dcc.Markdown('''
-                                    **Racial Features:** list of features,features
-                                    **Class Features:** list of features,features
-                                    **Background Features:** list of features,features
-                                    **Other Features:** list of features,features
+                                    **Racial Features:** list of features,features  
+                                    **Class Features:** list of features,features  
+                                    **Background Features:** list of features,features  
+                                    **Other Features:** list of features,features  
                                 '''),
                             ]
                         )
                     ]
                 ),
-                dbc.Col(html.Div("One of two columns")),
+                dbc.Col(
+                    [
+                        dbc.Tabs(
+                            [
+                                dbc.Tab(
+                                    [
+                                        
+                                    ],
+                                    label="Character Details",
+                                ),
+                                dbc.Tab(
+                                    dbc.Accordian(
+                                        [
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="Cantrips"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="1st Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="2nd Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="3rd Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="4th Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="5th Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="6th Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="7th Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="8th Lvl"
+                                            ),
+                                            dbc.AccordianItem(
+                                                dcc.Markdown('''
+                                                    
+                                                '''),
+                                                title="9th Lvl"
+                                            ),
+                                        ],
+                                    label="Spell Book",
+                                ),
+                                dbc.Tab(
+                                    [
+                                        
+                                    ],
+                                    label="Equipment",
+                                ),
+                            ]
+                        )
+                    ]
+                )
             ]
         ),
     ]
