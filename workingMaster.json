@@ -1,0 +1,87 @@
+{    
+    "Player Characters":[
+        {
+            "Player Name": null,            
+            "Character Level Build":{
+                "Level 1": {
+                    "Character Name": null,
+                    "Race": null,
+                    "Class": null,
+                    "Class Level": 1
+                    "Background": null,
+                    "Base Ability Scores": {
+                        "Base Strength": 0,
+                        "Base Dexterity": 0,
+                        "Base Constitution": 0,
+                        "Base Intelligence": 0,
+                        "Base Wisdom": 0,
+                        "Base Charisma": 0
+                    },
+                    "Features":{
+                        "Racial Features":{
+                            "Ability Score Bonuses":{
+                            },
+                            "Size": null,
+                            "Base Speed":{
+                                "Base Walking":0
+                            },
+                            "Racial Abilities":[
+                                {
+                                    "Ability Name": null,
+                                    "Ability Description": null
+                                }
+                            ]
+                        },
+                        "Class Features":{
+                        },
+                        "Background Features":{
+                        },
+                    "Alignment": {
+                        "Law/Chaos": 50,
+                        "Good/Evil": 50
+                    },
+                },
+                "Level 2": {
+                },
+                "Level 3": {
+                },
+                "Level 4": {
+                },
+                "Level 5": {
+                },
+                "Level 6": {
+                },
+                "Level 7": {
+                },
+                "Level 8": {
+                },
+                "Level 9": {
+                },
+                "Level 10": {
+                },
+                "Level 11": {
+                },
+                "Level 12": {
+                },
+                "Level 13": {
+                },
+                "Level 14": {
+                },
+                "Level 15": {
+                },
+                "Level 16": {
+                },
+                "Level 17": {
+                },
+                "Level 18": {
+                },
+                "Level 19": {
+                },
+                "Level 20": {
+                },
+            },
+            "Character Sheet":{
+            }
+        }
+    ]
+}
