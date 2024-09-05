@@ -63,9 +63,9 @@ pc_page = html.Div(
                                         html.P(
                                             [
                                                 "Dhampyr",
-                                                htmlBr(),
+                                                html.Br(),
                                                 "Lawfull Neutral",
-                                                htmlBr(),
+                                                html.Br(),
                                                 "Medium"
                                             ]
                                         ),
