@@ -238,8 +238,8 @@ pc_page = html.Div(
                                                 title="9th Lvl"
                                             ),
                                         ],
-                                    label="Spell Book",
                                     ),
+                                    label="Spell Book",
                                 ),
                                 dbc.Tab(
                                     [
