@@ -56,7 +56,7 @@ pc_page = html.Div(
                     [
                         dbc.Row(
                             [
-                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg")),],width=3),
+                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="50%")),],width=3),
                                 dbc.Col(
                                     [
                                         html.H3("Valrdis Fossic"),
