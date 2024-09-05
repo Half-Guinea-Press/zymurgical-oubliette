@@ -59,8 +59,8 @@ pc_page = html.Div(
                                 dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=4),
                                 dbc.Col(
                                     [
-                                        html.H5("Blood Hunter Lvl 2"),
-                                        html.P(
+                                        html.H4("Blood Hunter Lvl 2"),
+                                        html.H6(
                                             [
                                                 "Dhampyr",
                                                 html.Br(),
@@ -73,7 +73,6 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
-                        dbc.Row([html.Br(),html.Hr()]),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -81,12 +80,12 @@ pc_page = html.Div(
                                         html.Thead(
                                             html.Tr(
                                                 [
-                                                    html.Th("STR"),
-                                                    html.Th("DEX"),
-                                                    html.Th("CON"),
-                                                    html.Th("INT"),
-                                                    html.Th("WIS"),
-                                                    html.Th("CHR"),
+                                                    html.Th("Strength"),
+                                                    html.Th("Dexterity"),
+                                                    html.Th("Constitution"),
+                                                    html.Th("Intelligence"),
+                                                    html.Th("Wisdom"),
+                                                    html.Th("Chrisma"),
                                                 ]
                                             )
                                         ),
@@ -114,11 +113,10 @@ pc_page = html.Div(
                                                 ),
                                             ]
                                         ),
-                                    ],bordered=True,striped=True,
+                                    ],bordered=True,
                                 ),
                             ]
                         ),
-                        dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -154,7 +152,8 @@ pc_page = html.Div(
                         dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
-                                dcc.Markdown('''**Saving Throws:** list of saves, saves  
+                                dcc.Markdown('''
+                                    **Saving Throws:** list of saves, saves  
                                     **Skills:** list of saves, saves  
                                     **Senses:** list of saves, saves  
                                     **Tools, Instuments, Games:** list of saves, saves  
@@ -165,30 +164,12 @@ pc_page = html.Div(
                         dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
-                                html.Div(
-                                    [
-                                        html.H6("Racial Features: "),
-                                        html.P("list of features,features"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Class Features: "),
-                                        html.P("list of features,features"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Background Features: "),
-                                        html.P("list of features,features"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Other Features: "),
-                                        html.P("list of features,features"),
-                                    ]
-                                ),
+                                dcc.Markdown('''
+                                    **Racial Features:** list of features,features
+                                    **Class Features:** list of features,features
+                                    **Background Features:** list of features,features
+                                    **Other Features:** list of features,features
+                                '''),
                             ]
                         )
                     ]
