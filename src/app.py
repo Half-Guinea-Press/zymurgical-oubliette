@@ -154,11 +154,12 @@ pc_page = html.Div(
                         dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
-                                dcc.Markdown("**Saving Throws:** list of saves, saves"),
-                                dcc.Markdown("**Skills:** list of saves, saves"),
-                                dcc.Markdown("**Senses:** list of saves, saves"),
-                                dcc.Markdown("**Tools, Instuments, Games:** list of saves, saves"),
-                                dcc.Markdown("**Langauges:** list of saves, saves"),
+                                dcc.Markdown('''**Saving Throws:** list of saves, saves  
+                                    **Skills:** list of saves, saves  
+                                    **Senses:** list of saves, saves  
+                                    **Tools, Instuments, Games:** list of saves, saves  
+                                    **Langauges:** list of saves, saves
+                                '''),
                             ]
                         ),
                         dbc.Row([html.Hr()]),
