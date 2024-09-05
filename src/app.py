@@ -175,63 +175,63 @@ pc_page = html.Div(
                                     label="Character Details",
                                 ),
                                 dbc.Tab(
-                                    dbc.Accordian(
+                                    dbc.Accordion(
                                         [
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="Cantrips"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="1st Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="2nd Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="3rd Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="4th Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="5th Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="6th Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="7th Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
                                                 title="8th Lvl"
                                             ),
-                                            dbc.AccordianItem(
+                                            dbc.AccordionItem(
                                                 dcc.Markdown('''
                                                     
                                                 '''),
