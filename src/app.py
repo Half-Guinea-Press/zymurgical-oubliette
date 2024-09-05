@@ -124,7 +124,8 @@ pc_page = html.Div(
                                                 ),
                                             ],bordered=True,striped=True
                                         ),
-                                    ]
+                                    ],
+                                    width=2,
                                 ),
                                 dbc.Col(
                                     [
@@ -183,7 +184,8 @@ pc_page = html.Div(
                                                 '''),
                                             ]
                                         )
-                                    ]
+                                    ],
+                                    width=4,
                                 )
                             ]
                         ),
