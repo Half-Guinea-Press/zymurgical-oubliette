@@ -71,9 +71,10 @@ pc_page = html.Div(
                                         ),
                                     ],width=4
                                 )
+                                html.Br()
                             ]
                         ),
-                        dbc.Row(html.Hr()),
+                        dbc.Row([html.Hr(),html.Hr()]),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -118,7 +119,7 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
-                        dbc.Row(html.Hr()),
+                        dbc.Row([html.Hr(),html.Hr()]),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -149,38 +150,61 @@ pc_page = html.Div(
                                         ),
                                     ],bordered=True,
                                 ),
-                                dbc.Col(
+                            ]
+                        ),
+                        dbc.Row([html.Hr(),html.Hr()]),
+                        dbc.Row(
+                            [
+                                html.Div(
                                     [
-                                        html.H4("AC"),
-                                        html.P("16"),
+                                        html.H6("Saving Throws: "),
+                                        html.P("list of saves, saves"),
                                     ]
                                 ),
-                                dbc.Col(
+                                html.Div(
                                     [
-                                        html.H4("Init"),
-                                        html.P("+5"),
+                                        html.H6("Skills: "),
+                                        html.P("list of saves, saves"),
                                     ]
                                 ),
-                                dbc.Col(
+                                html.Div(
                                     [
-                                        html.H4("Spd"),
-                                        html.P("30"),
+                                        html.H6("Senses: "),
+                                        html.P("list of saves, saves"),
                                     ]
                                 ),
-                                dbc.Col(
+                                html.Div(
                                     [
-                                        html.H4("HP"),
-                                        html.P("20"),
+                                        html.H6("Tools: "),
+                                        html.P("list of saves, saves"),
                                     ]
                                 ),
-                                dbc.Col(
+                                html.Div(
                                     [
-                                        html.H4("Prof."),
-                                        html.P("+2"),
+                                        html.H6("Musical Instruments: "),
+                                        html.P("list of saves, saves"),
+                                    ]
+                                ),
+                                html.Div(
+                                    [
+                                        html.H6("Gaming Sets: "),
+                                        html.P("list of saves, saves"),
+                                    ]
+                                ),
+                                html.Div(
+                                    [
+                                        html.H6("Languages: "),
+                                        html.P("list of saves, saves"),
                                     ]
                                 ),
                             ]
                         ),
+                        dbc.Row([html.Hr(),html.Hr()]),
+                        dbc.Row(
+                            [
+                                
+                            ]
+                        )
                     ]
                 ),
                 dbc.Col(html.Div("One of two columns")),
