@@ -49,21 +49,20 @@ def render_page_content(pathname):
 
 pc_page = html.Div(
     [
-    dbc.Row(dbc.Col(html.H1("Valrdis Fossic"))),
+        dbc.Row(dbc.Col(html.H1("Valrdis Fossic"))),
         dbc.Row(
             [
                 dbc.Col(
                     [
                         dbc.Row(
                             [
-                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="50%")),],width=3),
+                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=3),
                                 dbc.Col(
                                     [
-                                        html.H3("Valrdis Fossic"),
                                         html.H4("Blood Hunter Lvl 2"),
                                         html.P(
-                                            "Dhampyr"
-                                            "Lawfull Neutral"
+                                            "Dhampyr "
+                                            "Lawfull Neutral "
                                             "Medium"
                                         ),
                                     ],width=5
