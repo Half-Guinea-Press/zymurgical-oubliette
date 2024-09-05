@@ -56,7 +56,7 @@ pc_page = html.Div(
                     [
                         dbc.Row(
                             [
-                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg", height="30px")),]),
+                                dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg")),]),
                                 dbc.Col(
                                     [
                                         html.H3("Blood Hunter Lvl 2"),
