@@ -70,7 +70,7 @@ pc_page = html.Div(
                                             ]
                                         ),
                                     ],width=4
-                                )
+                                ),
                                 html.Br()
                             ]
                         ),
@@ -202,7 +202,30 @@ pc_page = html.Div(
                         dbc.Row([html.Hr(),html.Hr()]),
                         dbc.Row(
                             [
-                                
+                                html.Div(
+                                    [
+                                        html.H6("Racial Features: "),
+                                        html.P("list of features,features"),
+                                    ]
+                                ),
+                                html.Div(
+                                    [
+                                        html.H6("Class Features: "),
+                                        html.P("list of features,features"),
+                                    ]
+                                ),
+                                html.Div(
+                                    [
+                                        html.H6("Background Features: "),
+                                        html.P("list of features,features"),
+                                    ]
+                                ),
+                                html.Div(
+                                    [
+                                        html.H6("Other Features: "),
+                                        html.P("list of features,features"),
+                                    ]
+                                ),
                             ]
                         )
                     ]
