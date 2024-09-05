@@ -155,9 +155,9 @@ pc_page = html.Div(
                         dbc.Row([html.Hr(),html.Hr()]),
                         dbc.Row(
                             [
-                                html.Div(
+                                html.P(
                                     [
-                                        html.H6("Saving Throws: "),
+                                        html.Strong("Saving Throws: "),
                                         html.P("list of saves, saves"),
                                     ]
                                 ),
