@@ -59,8 +59,16 @@ pc_page = html.Div(
                                 dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=4),
                                 dbc.Col(
                                     [
-                                        html.H4("Blood Hunter Lvl 2"),
-                                        html.P("Dhampyr<br>Lawfull Neutral<br>Medium"),
+                                        html.H6("Blood Hunter Lvl 2"),
+                                        html.P(
+                                            [
+                                                "Dhampyr",
+                                                htmlBr(),
+                                                "Lawfull Neutral",
+                                                htmlBr(),
+                                                "Medium"
+                                            ]
+                                        ),
                                     ],width=4
                                 )
                             ]
@@ -73,11 +81,11 @@ pc_page = html.Div(
                                             html.Tr(
                                                 [
                                                     html.Th("STR"),
-                                                    html.Th("STR"),
-                                                    html.Th("STR"),
-                                                    html.Th("STR"),
-                                                    html.Th("STR"),
-                                                    html.Th("STR"),
+                                                    html.Th("DEX"),
+                                                    html.Th("CON"),
+                                                    html.Th("INT"),
+                                                    html.Th("WIS"),
+                                                    html.Th("CHR"),
                                                 ]
                                             )
                                         ),
@@ -105,12 +113,40 @@ pc_page = html.Div(
                                                 ),
                                             ]
                                         ),
-                                    ]
+                                    ],bordered=True,striped=True,
                                 ),
                             ]
                         ),
                         dbc.Row(
                             [
+                                dbc.Table(
+                                    [
+                                        html.Thead(
+                                            html.Tr(
+                                                [
+                                                    html.Th("AC"),
+                                                    html.Th("INIT"),
+                                                    html.Th("SPD"),
+                                                    html.Th("HP"),
+                                                    html.Th("Prof"),
+                                                ]
+                                            )
+                                        ),
+                                        html.Tbody(
+                                            [
+                                                html.Tr(
+                                                    [
+                                                        html.Td("16"),
+                                                        html.Td("+5"),
+                                                        html.Td("30"),
+                                                        html.Td("20"),
+                                                        html.Td("+2"),
+                                                    ]
+                                                ),
+                                            ]
+                                        ),
+                                    ]
+                                ),
                                 dbc.Col(
                                     [
                                         html.H4("AC"),
