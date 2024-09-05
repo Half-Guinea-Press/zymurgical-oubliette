@@ -239,6 +239,7 @@ pc_page = html.Div(
                                             ),
                                         ],
                                     label="Spell Book",
+                                    ),
                                 ),
                                 dbc.Tab(
                                     [
