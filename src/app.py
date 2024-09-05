@@ -59,7 +59,7 @@ pc_page = html.Div(
                                 dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=4),
                                 dbc.Col(
                                     [
-                                        html.H6("Blood Hunter Lvl 2"),
+                                        html.H5("Blood Hunter Lvl 2"),
                                         html.P(
                                             [
                                                 "Dhampyr",
@@ -73,6 +73,7 @@ pc_page = html.Div(
                                 )
                             ]
                         ),
+                        dbc.Row(hrml.Hr()),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -117,6 +118,7 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
+                        dbc.Row(hrml.Hr()),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -145,7 +147,7 @@ pc_page = html.Div(
                                                 ),
                                             ]
                                         ),
-                                    ]
+                                    ],bordered=True,
                                 ),
                                 dbc.Col(
                                     [
