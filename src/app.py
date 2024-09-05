@@ -59,10 +59,12 @@ pc_page = html.Div(
                                 dbc.Col([html.Div(html.Img(src="assets/Valdris%20Fossic%20head.jpg",width="100%")),],width=4),
                                 dbc.Col(
                                     [
-                                        html.H4("Blood Hunter Lvl 2"),
+                                        html.H5("Blood Hunter Lvl 2"),
                                         html.H6(
                                             [
                                                 "Dhampyr",
+                                                html.Br(),
+                                                "Arcane Repo Reaper",
                                                 html.Br(),
                                                 "Lawfull Neutral",
                                                 html.Br(),
@@ -73,95 +75,118 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
+                        dbc.Row(html.Br()),
                         dbc.Row(
                             [
-                                dbc.Table(
+                                dbc.Col(
                                     [
-                                        html.Thead(
-                                            html.Tr(
-                                                [
-                                                    html.Th("Strength"),
-                                                    html.Th("Dexterity"),
-                                                    html.Th("Constitution"),
-                                                    html.Th("Intelligence"),
-                                                    html.Th("Wisdom"),
-                                                    html.Th("Chrisma"),
-                                                ]
-                                            )
-                                        ),
-                                        html.Tbody(
+                                        dbc.Table(
                                             [
-                                                html.Tr(
+                                                html.Tbody(
                                                     [
-                                                        html.Td("20(+5)"),
-                                                        html.Td("20(+5)"),
-                                                        html.Td("20(+5)"),
-                                                        html.Td("20(+5)"),
-                                                        html.Td("20(+5)"),
-                                                        html.Td("20(+5)"),
+                                                        html.Tr(
+                                                            [
+                                                                html.Td("Strength"),
+                                                                html.Td("20(+5)"),
+                                                            ]
+                                                        ),
+                                                        html.Tr(
+                                                            [
+                                                                html.Td("Dexterity"),
+                                                                html.Td("20(+5)"),
+                                                            ]
+                                                        ),
+                                                        html.Tr(
+                                                            [
+                                                                html.Td("Constitution"),
+                                                                html.Td("20(+5)"),
+                                                            ]
+                                                        ),
+                                                        html.Tr(
+                                                            [
+                                                                html.Td("Intelligence"),
+                                                                html.Td("20(+5)"),
+                                                            ]
+                                                        ),
+                                                        html.Tr(
+                                                            [
+                                                                html.Td("Wisdom"),
+                                                                html.Td("20(+5)"),
+                                                            ]
+                                                        ),
+                                                        html.Tr(
+                                                            [
+                                                                html.Td("Charisma"),
+                                                                html.Td("20(+5)"),
+                                                            ]
+                                                        ),
                                                     ]
+                                                ),
+                                            ],bordered=True,striped=True
+                                        ),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        dbc.Row(
+                                            [
+                                                dbc.Table(
+                                                    [
+                                                        html.Thead(
+                                                            html.Tr(
+                                                                [
+                                                                    html.Th("AC"),
+                                                                    html.Th("INIT"),
+                                                                    html.Th("SPD"),
+                                                                    html.Th("HP"),
+                                                                    html.Th("Prof"),
+                                                                ]
+                                                            )
+                                                        ),
+                                                        html.Tbody(
+                                                            [
+                                                                html.Tr(
+                                                                    [
+                                                                        html.Td("16"),
+                                                                        html.Td("+5"),
+                                                                        html.Td("30"),
+                                                                        html.Td("20"),
+                                                                        html.Td("+2"),
+                                                                    ]
+                                                                ),
+                                                            ]
+                                                        ),
+                                                    ],bordered=True,striped=True
                                                 ),
                                             ]
                                         ),
-                                    ],bordered=True,striped=True
-                                ),
-                            ]
-                        ),
-                        dbc.Row(
-                            [
-                                dbc.Table(
-                                    [
-                                        html.Thead(
-                                            html.Tr(
-                                                [
-                                                    html.Th("AC"),
-                                                    html.Th("INIT"),
-                                                    html.Th("SPD"),
-                                                    html.Th("HP"),
-                                                    html.Th("Prof"),
-                                                ]
-                                            )
-                                        ),
-                                        html.Tbody(
+                                        dbc.Row([html.Hr()]),
+                                        dbc.Row(
                                             [
-                                                html.Tr(
-                                                    [
-                                                        html.Td("16"),
-                                                        html.Td("+5"),
-                                                        html.Td("30"),
-                                                        html.Td("20"),
-                                                        html.Td("+2"),
-                                                    ]
-                                                ),
+                                                dcc.Markdown('''
+                                                    **Saving Throws:** list of saves, saves  
+                                                    **Skills:** list of saves, saves  
+                                                    **Senses:** list of saves, saves  
+                                                    **Tools, Instuments, Games:** list of saves, saves  
+                                                    **Langauges:** list of saves, saves
+                                                '''),
                                             ]
                                         ),
-                                    ],bordered=True,striped=True
-                                ),
+                                        dbc.Row([html.Hr()]),
+                                        dbc.Row(
+                                            [
+                                                dcc.Markdown('''
+                                                    **Racial Features:** list of features,features  
+                                                    **Class Features:** list of features,features  
+                                                    **Background Features:** list of features,features  
+                                                    **Other Features:** list of features,features  
+                                                '''),
+                                            ]
+                                        )
+                                    ]
+                                )
                             ]
                         ),
-                        dbc.Row([html.Hr()]),
-                        dbc.Row(
-                            [
-                                dcc.Markdown('''
-                                    **Saving Throws:** list of saves, saves  
-                                    **Skills:** list of saves, saves  
-                                    **Senses:** list of saves, saves  
-                                    **Tools, Instuments, Games:** list of saves, saves  
-                                    **Langauges:** list of saves, saves
-                                '''),
-                            ]
-                        ),
-                        dbc.Row([html.Hr()]),
-                        dbc.Row(
-                            [
-                                dcc.Markdown('''
-                                    **Racial Features:** list of features,features  
-                                    **Class Features:** list of features,features  
-                                    **Background Features:** list of features,features  
-                                    **Other Features:** list of features,features  
-                                '''),
-                            ]
-                        )
                     ]
                 ),
                 dbc.Col(
