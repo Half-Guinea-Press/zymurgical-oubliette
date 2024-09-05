@@ -71,10 +71,9 @@ pc_page = html.Div(
                                         ),
                                     ],width=4
                                 ),
-                                html.Br()
                             ]
                         ),
-                        dbc.Row([html.Hr(),html.Hr()]),
+                        dbc.Row([html.Br(),html.Hr()]),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -119,7 +118,7 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
-                        dbc.Row([html.Hr(),html.Hr()]),
+                        dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -152,54 +151,17 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
-                        dbc.Row([html.Hr(),html.Hr()]),
+                        dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
-                                html.Strong(
-                                    [
-                                        "Saving Throws: ",
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Skills: "),
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Senses: "),
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Tools: "),
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Musical Instruments: "),
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Gaming Sets: "),
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
-                                html.Div(
-                                    [
-                                        html.H6("Languages: "),
-                                        html.P("list of saves, saves"),
-                                    ]
-                                ),
+                                html.Markdown("**Saving Throws:** list of saves, saves"),
+                                html.Markdown("**Skills:** list of saves, saves"),
+                                html.Markdown("**Senses:** list of saves, saves"),
+                                html.Markdown("**Tools, Instuments, Games:** list of saves, saves"),
+                                html.Markdown("**Langauges:** list of saves, saves"),
                             ]
                         ),
-                        dbc.Row([html.Hr(),html.Hr()]),
+                        dbc.Row([html.Hr()]),
                         dbc.Row(
                             [
                                 html.Div(
