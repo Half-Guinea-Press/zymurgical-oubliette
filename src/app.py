@@ -73,7 +73,7 @@ pc_page = html.Div(
                                 )
                             ]
                         ),
-                        dbc.Row(hrml.Hr()),
+                        dbc.Row(html.Hr()),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -118,7 +118,7 @@ pc_page = html.Div(
                                 ),
                             ]
                         ),
-                        dbc.Row(hrml.Hr()),
+                        dbc.Row(html.Hr()),
                         dbc.Row(
                             [
                                 dbc.Table(
