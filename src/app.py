@@ -566,6 +566,7 @@ character_design_page = html.Div(
                                         placeholder="Character Background",
                                     ),
                                 ),
+                                html.Br()
                             ],
                         ),
                         dbc.Row(
@@ -601,69 +602,69 @@ character_design_page = html.Div(
                             [
                                 dbc.AccordionItem(
                                     "This is the content of the first section",
-                                    title="Item 1",
+                                    title="Racial Features",
                                 ),
                                 dbc.AccordionItem(
                                     "This is the content of the second section",
-                                    title="Item 2",
+                                    title="Class Features",
                                 ),
                                 dbc.AccordionItem(
                                     "This is the content of the third section",
-                                    title="Item 3",
+                                    title="Background Features",
+                                ),
+                                dbc.AccordionItem(
+                                    "This is the content of the third section",
+                                    title="Character Starting Equipment",
                                 ),
                             ],
                             always_open=True,
                         ),
                     ]
                 ),
+                dbc.Col(
+                    [
+                    ]
+                )
             ]
         )
     ],
 )
 
 main_page = html.Div([
-    dbc.Row([    
-        dbc.Navbar(
-            dbc.Container(
-                [
-                    html.A(
-                        dbc.Row(
-                            [
-                                dbc.Col(html.Img(src="", height="30px")),
-                                dbc.Col(dbc.NavbarBrand("The Nocturnal Campaign",className="ms-2")),
-                            ],
-                            align="center",
-                            className="g-0"
-                        ),
-                        href="/",
-                        style={"textDecoration":"none"},
-                    ),
-                ]
-            ),
-            color="dark",
-            dark=True,
-        ),
-    ]),    
-    dbc.Row([
-        dbc.Col([
-            dbc.Button("<>",id="sidebar-left-toggle", n_clicks=0, color="primary",className="mb-3"),
-            dbc.Collapse(
-                dbc.Nav(
+    dbc.Row(
+        [    
+            dbc.Navbar(
+                dbc.Container(
                     [
-                        dbc.NavItem(dbc.NavLink("Home", href="/", active="exact")),
-                        dbc.NavItem(dbc.NavLink("PC", href="/pc", active="exact")),
-                        dbc.NavItem(dbc.NavLink("Character Design", href="/character_design", active="exact")),
-                    ],
-                    vertical=True,
-                    pills=True,
+                        html.A(
+                            dbc.Row(
+                                [
+                                    dbc.Col(html.Img(src="", height="30px")),
+                                    dbc.Col(dbc.NavbarBrand("The Nocturnal Campaign",className="ms-2")),
+                                ],
+                                align="center",
+                                className="g-0"
+                            ),
+                            href="/",
+                            style={"textDecoration":"none"},
+                        ),
+                    ]
                 ),
-                id="sidebar-left",
-                is_open=True,
-                dimension="width",
-                ),
-            ],
-            width=2,
-        ),
+                color="dark",
+                dark=True,
+            ),
+            dbc.Nav(
+                [
+                    dbc.NavItem(dbc.NavLink("Home", href="/", active="exact")),
+                    dbc.NavItem(dbc.NavLink("PC", href="/pc", active="exact")),
+                    dbc.NavItem(dbc.NavLink("Character Design", href="/character_design", active="exact")),
+                ],
+                pills=True,
+                fill=True
+            )
+        ]
+    ),    
+    dbc.Row([
         dbc.Col(
             html.Div(
                 [
@@ -671,18 +672,6 @@ main_page = html.Div([
                 html.Div(id="page-content",children=[],style={"display":"block"}),
                 ]
             ),
-            width=7
-        ),
-        dbc.Col([
-            dbc.Button("<>",id="sidebar-right-toggle", n_clicks=0, color="primary",className="mb-3"),
-            dbc.Collapse(
-                dbc.Card("This is the right card!", body=True),
-                id="sidebar-right",
-                is_open=True,
-                dimension="width",
-                ),
-            ],
-            width=2,
         ),
         ],
         style=
