@@ -577,12 +577,20 @@ character_design_page = html.Div(
                         ),
                         dbc.Row(
                             [
-                                dbc.Col(dbc.Input(id="Ability Score Strength", type="number", min = 0, max = 20),),
-                                dbc.Col(dbc.Input(id="Ability Score Dexterity", type="number", min = 0, max = 20),),
-                                dbc.Col(dbc.Input(id="Ability Score Constitution", type="number", min = 0, max = 20),),
-                                dbc.Col(dbc.Input(id="Ability Score Intelligence", type="number", min = 0, max = 20),),
-                                dbc.Col(dbc.Input(id="Ability Score Wisdom", type="number", min = 0, max = 20),),
-                                dbc.Col(dbc.Input(id="Ability Score Charisma", type="number", min = 0, max = 20),),
+                                dbc.Col(
+                                    [
+                                        dbc.InputGroup([dbc.InputGroupText("Strength"),dbc.Input(id="Ability Score Strength", type="number", min = 0, max = 20)],className="mb-3"),
+                                        dbc.InputGroup([dbc.InputGroupText("Dexterity"),dbc.Input(id="Ability Score Dexterity", type="number", min = 0, max = 20)],className="mb-3"),
+                                        dbc.InputGroup([dbc.InputGroupText("Constitution"),dbc.Input(id="Ability Score Constitution", type="number", min = 0, max = 20)],className="mb-3"),
+                                    ]
+                                ),
+                                dbc.Col(
+                                    [
+                                        dbc.InputGroup([dbc.InputGroupText("Intelligence"),dbc.Input(id="Ability Score Intelligence", type="number", min = 0, max = 20)],className="mb-3"),
+                                        dbc.InputGroup([dbc.InputGroupText("Wisdom"),dbc.Input(id="Ability Score Wisdom", type="number", min = 0, max = 20)],className="mb-3"),
+                                        dbc.InputGroup([dbc.InputGroupText("Charisma"),dbc.Input(id="Ability Score Charisma", type="number", min = 0, max = 20)],className="mb-3"),
+                                    ]
+                                ),
                             ]
                         )                        
                     ]
