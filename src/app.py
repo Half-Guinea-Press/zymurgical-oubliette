@@ -676,7 +676,7 @@ main_page = html.Div([
         ],
         style=
             {
-            "paddingTop":"10px"
+            "padding":"20px"
             }
         ),
     dcc.Location(id="url")])
