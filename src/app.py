@@ -568,9 +568,26 @@ character_design_page = html.Div(
                                 ),
                             ],
                         ),
-                        dbc.Row(html.Br()),
-                        dbc.Row(html.Hr()),
-                        dbc.Row(html.Br()),
+                        dbc.Row(
+                            [
+                                html.Br(),
+                                html.Hr(),
+                                html.Br(),
+                            ]
+                        ),
+                        dbc.Row(
+                            [
+                                dbc.Col(dbc.Input(id="Ability Score Strength", type="number", min = 0, max = 20),),
+                                dbc.Col(dbc.Input(id="Ability Score Dexterity", type="number", min = 0, max = 20),),
+                                dbc.Col(dbc.Input(id="Ability Score Constitution", type="number", min = 0, max = 20),),
+                                dbc.Col(dbc.Input(id="Ability Score Intelligence", type="number", min = 0, max = 20),),
+                                dbc.Col(dbc.Input(id="Ability Score Wisdom", type="number", min = 0, max = 20),),
+                                dbc.Col(dbc.Input(id="Ability Score Charisma", type="number", min = 0, max = 20),),
+                        )                        
+                    ]
+                ),
+                dbc.Col(
+                    [
                         dbc.Accordion(
                             [
                                 dbc.AccordionItem(
@@ -588,10 +605,6 @@ character_design_page = html.Div(
                             ],
                             always_open=True,
                         ),
-                    ]
-                ),
-                dbc.Col(
-                    [
                     ]
                 ),
             ]
