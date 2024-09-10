@@ -14,24 +14,6 @@ server = app.server
 
 # Get Data
 
-@app.callback(Output("sidebar-left","is_open"),
-    [Input("sidebar-left-toggle","n_clicks")],
-    [State("sidebar-left","is_open")],
-    )
-def toggle_sidebar(n, is_open):
-    if n:
-        return not is_open
-    return is_open
-    
-@app.callback(Output("sidebar-right","is_open"),
-    [Input("sidebar-right-toggle","n_clicks")],
-    [State("sidebar-right","is_open")],
-    )
-def toggle_sidebar2(n, is_open):
-    if n:
-        return not is_open
-    return is_open
-
 @app.callback(Output("page-content","children"),
     [Input("url","pathname")])
 def render_page_content(pathname):
@@ -668,7 +650,6 @@ main_page = html.Div([
         dbc.Col(
             html.Div(
                 [
-                html.Div(id="dd-output-container", style={"paddingTop":"10px"}),
                 html.Div(id="page-content",children=[],style={"display":"block"}),
                 ]
             ),
