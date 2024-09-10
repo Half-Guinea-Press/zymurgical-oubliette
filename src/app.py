@@ -583,6 +583,7 @@ character_design_page = html.Div(
                                 dbc.Col(dbc.Input(id="Ability Score Intelligence", type="number", min = 0, max = 20),),
                                 dbc.Col(dbc.Input(id="Ability Score Wisdom", type="number", min = 0, max = 20),),
                                 dbc.Col(dbc.Input(id="Ability Score Charisma", type="number", min = 0, max = 20),),
+                            ]
                         )                        
                     ]
                 ),
