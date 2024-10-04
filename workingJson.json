@@ -1,0 +1,59 @@
+{
+	"PCs":[
+	{
+		"charName": "",
+		"charLvl": 0,
+		"charSpecies": "",
+		"charClass":[{"className": "", "classLvl": 0, "subclassName": null}]
+		"exp" : 0,
+		"charBackground": "",
+		"playerName": "",
+		"alignment": {"good_evil": 0, "law_chaos": 0},
+		"abilityScores":{
+			"str": {"score": 0, "bonus": 0 },
+			"dex": {"score": 0, "bonus": 0 },
+			"con": {"score": 0, "bonus": 0 },
+			"int": {"score": 0, "bonus": 0 },
+			"wis": {"score": 0, "bonus": 0 },
+			"chr": {"score": 0, "bonus": 0 },
+		},
+		"profBonus": 0,
+		"inspiration": 0,
+		"proficiencies":{
+			"savingThrows":{
+				"strThrow": {"proficient": false, "bonus": 0 },
+				"dexThrow": {"proficient": false, "bonus": 0 },
+				"conThrow": {"proficient": false, "bonus": 0 },
+				"intThrow": {"proficient": false, "bonus": 0 },
+				"wisThrow": {"proficient": false, "bonus": 0 },
+				"chrThrow": {"proficient": false, "bonus": 0 },
+			},
+			"skills":{
+				"acrobatics": {"proficient": false, "expertice": false, "bonus": 0},
+				"animalHandling": {"proficient": false, "expertice": false, "bonus": 0},
+				"arcana": {"proficient": false, "expertice": false, "bonus": 0},
+				"athletics": {"proficient": false, "expertice": false, "bonus": 0},
+				"deception": {"proficient": false, "expertice": false, "bonus": 0},
+				"history": {"proficient": false, "expertice": false, "bonus": 0},
+				"insight": {"proficient": false, "expertice": false, "bonus": 0},
+				"intimidation": {"proficient": false, "expertice": false, "bonus": 0},
+				"investigation": {"proficient": false, "expertice": false, "bonus": 0},
+				"medicine": {"proficient": false, "expertice": false, "bonus": 0},
+				"nature": {"proficient": false, "expertice": false, "bonus": 0},
+				"perception": {"proficient": false, "expertice": false, "bonus": 0},
+				"performance": {"proficient": false, "expertice": false, "bonus": 0},
+				"religion": {"proficient": false, "expertice": false, "bonus": 0},
+				"sleightOfHand": {"proficient": false, "expertice": false, "bonus": 0},
+				"stealth": {"proficient": false, "expertice": false, "bonus": 0},
+				"survival": {"proficient": false, "expertice": false, "bonus": 0},
+			},
+			"weaponProficiencies":["melee","simple"],
+			"toolProficiencies":[""],
+			"armorProficiencies":["heavy","medium","light","shield"],
+		},
+	},
+}
+		
+		
+			
+		
