@@ -1,0 +1,8 @@
+flask
+dash
+pandas
+gunicorn
+dash-tools
+dash_auth
+dash_bootstrap_components
+plotly
