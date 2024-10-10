@@ -1,0 +1,1029 @@
+{
+    "worldbuilding":{
+        "disciplines": {
+            "humanities": {
+                "art": {},
+                "history": {},
+                "language": {},
+                "law": {},
+                "philosophy": {},
+                "religion": {},
+            },
+            "socialScience": {
+                "anthropology": {},
+                "archeology": {},
+                "economics": {},
+                "geography": {},
+                "politicalScience": {},
+                "psychology": {},
+                "sociology": {},
+            },
+            "naturalScience": {
+                "biology": {},
+                "chemisty": {},
+                "earthScience": {},
+                "astronomy": {},
+                "physics": {},
+            },
+            "formalScience": {
+                "pureMathematics": {},
+                "appliedMathematics": {},
+            },
+            "appliedScience": {
+            "agriculture": {},
+            "architecture": {},
+            "business": {},
+            "education": {},
+            "engineering": {
+                "chemicalEngineering": {},
+                "civilEngineering": {},
+                "educationalTechnolgy": {},
+                "electricalEngineering": {},
+                "materialScience": {},
+                "mechanicalEngineering": {},
+                "systemScience": {},
+            },
+            "environmentalStudies": {},
+            "journalism": {},
+            "medicine": {},
+            "militaryScience": {},
+            "publicAdministration": {},
+            "socialWork": {},
+            "transportation": {}
+            }
+        },
+        "location": {},
+    },
+    "mechanic": {
+        "species": {
+    		"speciesName":{
+    			"info": {
+    				"description": "",
+    				"speciesNames": {
+    					"narrative": "",
+    					"maleNames": [],
+    					"femaleNames": [],
+    					"otherNameTypes": [
+    					{
+    						"nameType": "",
+    						"names": []
+    					}
+    					]
+    				}
+    			},
+    			"traits": {
+    				"abilityScoreBonus": [
+    				{
+    					"abilityScore": "",
+    					"scoreBonus": 0
+    				}
+    				],
+    				"creatureType": "",
+    				"size": "",
+    				"walkingSpeed": 0,
+    				"otherMovement": [
+    				{
+    					"movementType": "",
+    					"amount": 0
+    				}
+    				],
+    				"speciesFeatures": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				}					
+    			}
+    		}
+    	},
+        "class": {
+    		"className": {
+    			"coreTraits":{
+    				"hitPointFields":{
+    					"hitDice": ""
+    					"hitPoints1stLvl": 8,
+    					"hitPointsPerLvel": "",
+    				},
+    				"proficiencies":{
+    					"savingThrows": [],
+    					"skillChoices": [],
+    					"weaponProficiencies": [],
+    					"toolProficiencies": [],
+    					"armorTraining": []
+    				},
+    				"startingEquipment":{
+    					"choiceAorB": [],
+    					"ofYourChoice": [],
+    					"noChoice": [],
+    					"alternateGold": ""
+    				},
+    				"multiclassing":{
+    					"abilityScoreMinimum":{
+    						"abilityScoreType": "",
+    						"scoreRequirement": 0
+    					},
+    					"classStartingProficiencies": {
+    						"skillChoices": [],
+    						"weaponProficiencies": [],
+    						"toolProficiencies": [],
+    						"armorTraining": []
+    					}
+    				}
+    			},
+    			"classFeatures":{
+    				"Lvl1": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl2": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl3": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl4": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl5": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl6": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl7": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl8": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl9": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl10": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl11": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl12": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl13": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl14": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl15": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl16": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl17": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl18": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl19": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				},
+    				"Lvl20": {
+    					"featureName":{
+    						"featureDescription": "",
+    						"featureMechanics": ""
+    					}
+    				}
+    			}
+    		}
+    	},
+        "background": {
+    		"abilityScores": [],
+    		"feat": "",
+    		"skillProficiencies": [],
+    		"languages": [],
+    		"equipment": [],
+    		"backgroundFeature": {
+    			"featureName": "",
+    			"featureDescription": "",
+    			"featureMechanics": "",
+    		},
+    		"suggestedCharacteristics": {
+    			"personalityTrait": [],
+    			"ideal": [],
+    			"bond": [],
+    			"flaw": []
+    		}
+    	},
+        "feat": {
+    		"prerequisite":[
+    		{
+    			"prerequisiteType": "",
+    			"prerequisiteMechanic": ""
+    		}
+    		]
+    		"abilityScoreIncrease": [
+    		{
+    			"abilityScore": "",
+    			"increaseAmount": 0
+    		}
+    		],
+    		"featFeature": [
+    		{
+    			"featureName": "",
+    			"featureMechanic": ""
+    		}
+    		]
+    	},
+        "feature": {},
+        "object": {},
+        "encounter": {},
+        "action": {},
+        "proficiency": {},
+        "beastiary": {
+    		"name": "",
+    		"size": "",
+    		"creatureType": "",
+    		"creatureSubtype": "",
+    		"tag": [],
+    		"alignment": "",
+    		"hitDice": "",
+    		"hitPoints":0,
+    		"armorClass":{
+    			"armorClassScore": 0,
+    			"source": []
+    		},
+    		"movement": {
+    			"walk": 0,
+    			"burrow": 0,
+    			"climb": 0,
+    			"fly": 0,
+    			"swim": 0
+    		},
+    		"abilityScores":{
+    			"str": {"score": 0, "modifier": 0},
+    			"dex": {"score": 0, "modifier": 0},
+    			"con": {"score": 0, "modifier": 0},
+    			"int": {"score": 0, "modifier": 0},
+    			"wis": {"score": 0, "modifier": 0},
+    			"chr": {"score": 0, "modifier": 0}
+    		},
+    		"savingThrow": {
+    			"str": {"proficieny": false, "modifier": 0},
+    			"dex": {"proficieny": false, "modifier": 0},
+    			"con": {"proficieny": false, "modifier": 0},
+    			"int": {"proficieny": false, "modifier": 0},
+    			"wis": {"proficieny": false, "modifier": 0},
+    			"chr": {"proficieny": false, "modifier": 0}
+    		},
+    		"skills": 
+    		"conitionImmunities": 
+    		"takenDamageEffect":[
+    		{
+    			"damageType": ""
+    			"vulnerable": false,
+    			"resistant": false,
+    			"immune": false,
+    		}
+    		],
+    		"language": {
+    			"speaks": [],
+    			"understands": [],
+    			"telepathy": {
+    				"commonLanguageNeeded": false,
+    				"range": 0
+    			}
+    		},
+    		"visionTypes":{
+    			"blindSight": 0,
+    			"darkvision": 0,
+    			"tremorsense": 0,
+    			"trueSight": 0,
+    		},
+    		"CR": 0,
+    		"actionEconomy":{
+    			"legendaryAction": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"mythicAction": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"lairAction": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"regionalEffect": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"ability": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"action": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"bonusAction": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    			"reaction": [
+    			{
+    				"name": "",
+    				"description": ""
+    				"mechanics": ""
+    			}
+    			]
+    		}
+    	}
+    },
+    "campaign": {
+        "player": {},
+        "actor": {
+            "pc": {
+                "info": {},
+                "characterSheet":{
+                    "playerId": "",
+                    "playerName": "",
+                    "characterHash": "",
+                    "characterName": "",
+                    "characterLvl": 0,
+                    "characterXp": 0,
+                    "characterClass": [
+                    {
+                        "className": "",
+                        "classLvl": 0,
+                        "subclass": null
+                    }
+                    ],
+                    "characterBackground": "",
+                    "characterSpecies": "",
+                    "creatureType": "",
+                    "creatureSubtype": "",
+                    "characterAlignment": {
+                        "alignment": "",
+                        "good_evil": 0,
+                        "law_chaos": 0
+                    },
+                    "abilityScores":{
+                        "str": {
+                            "score": 0, 
+                            "modifier": 0, 
+                            "bonus":[
+                            {
+                                "bonusSource": "", 
+                                "bonusAmount": 0
+                            }
+                            ]
+                            },
+                        "dex": {
+                            "score": 0, 
+                            "modifier": 0, 
+                            "bonus":[
+                            {
+                                "bonusSource": "", 
+                                "bonusAmount": 0
+                            }
+                            ]
+                            },
+                        "con": {
+                            "score": 0, 
+                            "modifier": 0, 
+                            "bonus":[
+                            {
+                                "bonusSource": "", 
+                                "bonusAmount": 0
+                            }
+                            ]
+                            },
+                        "int": {
+                            "score": 0, 
+                            "modifier": 0, 
+                            "bonus":[
+                            {
+                                "bonusSource": "", 
+                                "bonusAmount": 0
+                            }
+                            ]
+                            },
+                        "wis": {
+                            "score": 0, 
+                            "modifier": 0, 
+                            "bonus":[
+                            {
+                                "bonusSource": "", 
+                                "bonusAmount": 0
+                            }
+                            ]
+                            },
+                        "chr": {
+                            "score": 0, 
+                            "modifier": 0, 
+                            "bonus":[
+                            {
+                                "bonusSource": "", 
+                                "bonusAmount": 0
+                            }
+                            ]
+                            },
+                    },
+                    "inspiration": 0,
+                    "proficiencyBonus": 0,
+                    "proficiencies": {
+                        "savingThrows": {
+                            "str": {
+                                "proficiency": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "dex": {
+                                "proficiency": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "con": {
+                                "proficiency": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "int": {
+                                "proficiency": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "wis": {
+                                "proficiency": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "chr": {
+                                "proficiency": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "otherSaves": [
+                            {
+                                "saveAgainst": "", 
+                                "advantage": false, 
+                                "modifier": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            }
+                            ]
+                        },
+                        "skillProficiencies": {
+                            "acrobatics": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "animalHandling": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "arcana": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "athletics": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "deception": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "history": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "insight": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "intimidation": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "investigation": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "medicine": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "nature": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "perception": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "performance": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "religion": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "sleightOfHand": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "stealth": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            },
+                            "survival": {
+                                "proficient": false, 
+                                "expertice": false, 
+                                "score": 0, 
+                                "bonus":[
+                                {
+                                    "bonusSource": "", 
+                                    "bonusAmount": 0
+                                }
+                                ]
+                            }
+                        },
+                        "weaponProficiencies": [],
+                        "armorTraining": [],
+                        "toolProficiencies": [],
+                        "musicalInstruments": [],
+                        "gameSets": [],
+                        "languages": []
+                    },
+                    "passiveSkills": {
+                        "passivePerception": 0,
+                        "passiveInsight": 0,
+                    },
+                    "armorClass":{
+                        "armorClassScore": 0,
+                        "source": []
+                    },
+                    "initiative": 0,
+                    "movement": {
+                        "speed": 30,
+                        "otherMovement":[
+                        {
+                            "movementType": "",
+                            "movementAmount": 0
+                        }
+                        ]
+                    },
+                    "hitPoints":{
+                        "hpMax": 0,
+                        "hpCurrent": 0,
+                        "tempHp": 0,
+                        "maxHitDice": 0,
+                        "hitDiceType": "",
+                        "hitDicePool": 0,
+                        "deathSaves": 0
+                    },
+                    "personalityTraits": "",
+                    "ideals": "",
+                    "bonds": "",
+                    "flaws": "",
+                    "attacks": [
+                    {
+                        "attackName": "",
+                        "attackBonus": 0,
+                        "attackDamage": "",
+                        "damageType": ""
+                    }
+                    ]
+                    "equipment": {},
+                    "features": {},
+                    "traits": {},
+                    "age": "",
+                    "height": "",
+                    "weight": "",
+                    "eyes": "",
+                    "skin": "",
+                    "hair": "",
+                    "characterAppearance": "",
+                    "allies": [],
+                    "organization": "",
+                    "characterBackstory": "",
+                    "additionalFeatures": "",
+                    "additionalTraits": "",
+                    "treasure": {},
+                    "spellcasting":{
+                        "spellcastingClass": [
+                        {
+                            "className": "",
+                            "castingAbility": "",
+                            "abilityModifier": 0
+                            "spellSaveDc": 0,
+                            "spellAttackBonus": 0
+                        }
+                        ],
+                        "cantripsKnown": {
+                            "numberCantripsKnown": 0,
+                            "cantripList": []
+                        },
+                        "preparedSpells": 0,
+                        "pactMagic":{
+                            "spellSlots": 0,
+                            "slotLvl": 0
+                        },
+                        "slotsPerLvl": {
+                            "1stLvl": 0,
+                            "2ndLvl": 0,
+                            "3rdLvl": 0,
+                            "4thLvl": 0,
+                            "5thLvl": 0,
+                            "6thLvl": 0,
+                            "7thLvl": 0,
+                            "8thLvl": 0,
+                            "9thLvl": 0
+                        }        
+                    },
+                    "spellList":{
+                        "cantrips": [],
+                        "1stLvl": [],
+                        "2ndLvl": [],
+                        "3rdLvl": [],
+                        "4thLvl": [],
+                        "5thLvl": [],
+                        "6thLvl": [],
+                        "7thLvl": [],
+                        "8thLvl": [],
+                        "9thLvl": []
+                    }
+                }
+            },
+            "npc": {
+        		"info":{},
+        		"statBlock": {
+        			"name": "",
+        			"size": "",
+        			"creatureType": "",
+        			"creatureSubtype": "",
+        			"tag": [],
+        			"alignment": "",
+        			"hitDice": "",
+        			"hitPoints":0,
+        			"armorClass":{
+        				"armorClassScore": 0,
+        				"source": []
+        			},
+        			"movement": {
+        				"walk": 0,
+        				"burrow": 0,
+        				"climb": 0,
+        				"fly": 0,
+        				"swim": 0
+        			},
+        			"abilityScores":{
+        				"str": {"score": 0, "modifier": 0},
+        				"dex": {"score": 0, "modifier": 0},
+        				"con": {"score": 0, "modifier": 0},
+        				"int": {"score": 0, "modifier": 0},
+        				"wis": {"score": 0, "modifier": 0},
+        				"chr": {"score": 0, "modifier": 0}
+        			},
+        			"savingThrow": {
+        				"str": {"proficieny": false, "modifier": 0},
+        				"dex": {"proficieny": false, "modifier": 0},
+        				"con": {"proficieny": false, "modifier": 0},
+        				"int": {"proficieny": false, "modifier": 0},
+        				"wis": {"proficieny": false, "modifier": 0},
+        				"chr": {"proficieny": false, "modifier": 0}
+        			},
+        			"skills": 
+        			"conitionImmunities": 
+        			"takenDamageEffect":[
+        			{
+        				"damageType": ""
+        				"vulnerable": false,
+        				"resistant": false,
+        				"immune": false,
+        			}
+        			],
+        			"language": {
+        				"speaks": [],
+        				"understands": [],
+        				"telepathy": {
+        					"commonLanguageNeeded": false,
+        					"range": 0
+        				}
+        			},
+        			"visionTypes":{
+        				"blindSight": 0,
+        				"darkvision": 0,
+        				"tremorsense": 0,
+        				"trueSight": 0,
+        			},
+        			"CR": 0,
+        			"actionEconomy":{
+        				"legendaryAction": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"mythicAction": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"lairAction": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"regionalEffect": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"ability": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"action": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"bonusAction": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        				"reaction": [
+        				{
+        					"name": "",
+        					"description": ""
+        					"mechanics": ""
+        				}
+        				]
+        			}
+        		}
+        	},
+            "organization": {},
+        },
+        "story": {
+            "scene": {},
+            "beat": {},
+            "act": {},
+        },    
+    },
+    "assets": {
+        "template": {
+            "characterSheet": {},
+            "statBlock": {},
+            "spellTemplate": {},
+            "objectTemplate": {},
+        },
+        "image": {
+            "avatar": {},
+            "settingImage": {},
+            "map": {},
+        }
+    }
+}
