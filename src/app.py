@@ -103,7 +103,7 @@ characterSheet = html.Div(
                                     [
                                         dbc.CardHeader("Wisdom"),
                                         dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4"))]),
+                                        dbc.CardFooter([html.P("+4")]),
                                     ]
                                 ),
                                 dbc.Card(
@@ -122,7 +122,12 @@ characterSheet = html.Div(
                                         dbc.CardHeader("Saving Throws")
                                         dbc.CardBody(
                                             [
-                                                dbc.Row(
+                                                dbc.Row(),
+                                                dbc.Row(),
+                                                dbc.Row(),
+                                                dbc.Row(),
+                                                dbc.Row(),
+                                                dbc.Row(),
                                             ]
                                         )
                                     ]
