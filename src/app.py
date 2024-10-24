@@ -79,7 +79,8 @@ characterSheet = html.Div(
                                         dbc.Card([dbc.CardHeader("Inteligence"),dbc.CardBody([html.H4(["18"," / ", "+4"]),
                                         dbc.Card([dbc.CardHeader("Wisdom"),dbc.CardBody([html.H4(["18"," / ", "+4"]),
                                         dbc.Card([dbc.CardHeader("Charisma"),dbc.CardBody([html.H4(["18"," / ", "+4"]),
-                                    ]
+                                    ],
+                                    width = 1,
                                 ),
                                 dbc.Col(
                                     [
@@ -88,12 +89,12 @@ characterSheet = html.Div(
                                                 dbc.CardHeader("Saving Throws"),
                                                 dbc.CardBody(
                                                     [
-                                                        dbc.Row(html.P(["+1"," ","Strength"]),
-                                                        dbc.Row(html.P(["+1"," ","Dexterity"]),
-                                                        dbc.Row(html.P(["+1"," ","Constitution"]),
-                                                        dbc.Row(html.P(["+1"," ","Inteligence"]),
-                                                        dbc.Row(html.P(["+1"," ","Wisdom"]),
-                                                        dbc.Row(html.P(["+1"," ","Charisma"]),
+                                                        dbc.Row(html.P(["+1"," ","Strength"])),
+                                                        dbc.Row(html.P(["+1"," ","Dexterity"])),
+                                                        dbc.Row(html.P(["+1"," ","Constitution"])),
+                                                        dbc.Row(html.P(["+1"," ","Inteligence"])),
+                                                        dbc.Row(html.P(["+1"," ","Wisdom"])),
+                                                        dbc.Row(html.P(["+1"," ","Charisma"])),
                                                     ]
                                                 )
                                             ]
@@ -129,7 +130,8 @@ characterSheet = html.Div(
                                                 dbc.CardBody(),
                                             ]
                                         ),
-                                    ]
+                                    ],
+                                    width = 2,
                                 )
                             ]
                         )
