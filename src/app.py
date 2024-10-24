@@ -116,7 +116,7 @@ characterSheet = html.Div(
                                                 dbc.Row([html.P("+1"),html.P(" "),html.P("Religion")]),
                                                 dbc.Row([html.P("+1"),html.P(" "),html.P("Sleight of Hand")]),
                                                 dbc.Row([html.P("+1"),html.P(" "),html.P("Stealth")]),
-                                                bc.Row([html.P("+1"),html.P(" "),html.P("Survival")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Survival")]),
                                             ]
                                         )
                                     ]
