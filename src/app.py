@@ -182,7 +182,7 @@ groupN = html.Div(
                 dbc.Tabs(
                     [
                         dbc.Tab(
-                            children = [],
+                            children = [characterSheet],
                             label = "Player Characters",
                             id = "pcTab"
                         ),
