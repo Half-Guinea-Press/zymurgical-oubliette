@@ -42,7 +42,7 @@ characterSheet = html.Div(
                 dbc.Col(
                     [
                         html.Br(),
-                        html.H1("Player Name"),
+                        html.H2("Player Name"),
                         html.Br()
                     ]
                 ),
@@ -50,15 +50,15 @@ characterSheet = html.Div(
                     [
                         dbc.Row(
                             [
-                                dbc.Col(html.H3("Class/Level")),
-                                dbc.Col(html.H3("Player Name"))
+                                dbc.Col(html.H4("Class/Level")),
+                                dbc.Col(html.H4("Player Name"))
                             ]
                         ),
                         dbc.Row(
                             [
-                                dbc.Col(html.H3("Species")),
-                                dbc.Col(html.H3("Background")),
-                                dbc.Col(html.H3("Experience")),
+                                dbc.Col(html.H4("Species")),
+                                dbc.Col(html.H4("Background")),
+                                dbc.Col(html.H4("Experience")),
                             ]
                         )
                     ]
@@ -73,12 +73,12 @@ characterSheet = html.Div(
                             [
                                 dbc.Col(
                                     [
-                                        dbc.Card([dbc.CardHeader("Strength"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
-                                        dbc.Card([dbc.CardHeader("Dexterity"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
-                                        dbc.Card([dbc.CardHeader("Constitution"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
-                                        dbc.Card([dbc.CardHeader("Inteligence"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
-                                        dbc.Card([dbc.CardHeader("Wisdom"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
-                                        dbc.Card([dbc.CardHeader("Charisma"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
+                                        dbc.Card([dbc.CardHeader("Strength"),dbc.CardBody([html.H5(["18"," / ", "+4"])])]),
+                                        dbc.Card([dbc.CardHeader("Dexterity"),dbc.CardBody([html.H5(["18"," / ", "+4"])])]),
+                                        dbc.Card([dbc.CardHeader("Constitution"),dbc.CardBody([html.H5(["18"," / ", "+4"])])]),
+                                        dbc.Card([dbc.CardHeader("Inteligence"),dbc.CardBody([html.H5(["18"," / ", "+4"])])]),
+                                        dbc.Card([dbc.CardHeader("Wisdom"),dbc.CardBody([html.H5(["18"," / ", "+4"])])]),
+                                        dbc.Card([dbc.CardHeader("Charisma"),dbc.CardBody([html.H5(["18"," / ", "+4"])])]),
                                     ],
                                     width = 4,
                                 ),
@@ -104,22 +104,22 @@ characterSheet = html.Div(
                                                 dbc.CardHeader("Skill Proficiencies"),
                                                 dbc.CardBody(
                                                     [
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Acrobatics")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Animal Handling")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Arcana")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Athletics")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Deception")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("History")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Insight")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Investigation")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Medicine")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Nature")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Perception")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Performance")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Religion")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Sleight of Hand")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Stealth")]),
-                                                        dbc.Row([html.P("+1"),html.P(" "),html.P("Survival")]),
+                                                        dbc.Row([html.P(["+1"," ","Acrobatics"]),
+                                                        dbc.Row([html.P(["+1"," ","Animal Handling"]),
+                                                        dbc.Row([html.P(["+1"," ","Arcana"]),
+                                                        dbc.Row([html.P(["+1"," ","Athletics"]),
+                                                        dbc.Row([html.P(["+1"," ","Deception"]),
+                                                        dbc.Row([html.P(["+1"," ","History"]),
+                                                        dbc.Row([html.P(["+1"," ","Insight"]),
+                                                        dbc.Row([html.P(["+1"," ","Investigation"]),
+                                                        dbc.Row([html.P(["+1"," ","Medicine"]),
+                                                        dbc.Row([html.P(["+1"," ","Nature"]),
+                                                        dbc.Row([html.P(["+1"," ","Perception"]),
+                                                        dbc.Row([html.P(["+1"," ","Performance"]),
+                                                        dbc.Row([html.P(["+1"," ","Religion"]),
+                                                        dbc.Row([html.P(["+1"," ","Sleight of Hand"]),
+                                                        dbc.Row([html.P(["+1"," ","Stealth"]),
+                                                        dbc.Row([html.P(["+1"," ","Survival"]),
                                                     ]
                                                 )
                                             ]
