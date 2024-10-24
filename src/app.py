@@ -42,7 +42,7 @@ characterSheet = html.Div(
                 dbc.Col(
                     [
                         html.Br(),
-                        html.H1("Player Name")
+                        html.H1("Player Name"),
                         html.Br()
                     ]
                 ),
@@ -122,14 +122,57 @@ characterSheet = html.Div(
                                         dbc.CardHeader("Saving Throws")
                                         dbc.CardBody(
                                             [
-                                                dbc.Row(),
-                                                dbc.Row(),
-                                                dbc.Row(),
-                                                dbc.Row(),
-                                                dbc.Row(),
-                                                dbc.Row(),
+                                                dbc.Row(
+                                                    [
+                                                        html.P("+1"),
+                                                        html.P(" "),
+                                                        html.P("Strength")
+                                                    ]
+                                                ),
+                                                dbc.Row(
+                                                    [
+                                                        html.P("+1"),
+                                                        html.P(" "),
+                                                        html.P("Dexterity")
+                                                    ]
+                                                ),
+                                                dbc.Row(
+                                                    [
+                                                        html.P("+1"),
+                                                        html.P(" "),
+                                                        html.P("Constitution")
+                                                    ]
+                                                ),
+                                                dbc.Row(
+                                                    [
+                                                        html.P("+1"),
+                                                        html.P(" "),
+                                                        html.P("Inteligence")
+                                                    ]
+                                                ),
+                                                dbc.Row(
+                                                    [
+                                                        html.P("+1"),
+                                                        html.P(" "),
+                                                        html.P("Wisdom")
+                                                    ]
+                                                ),
+                                                dbc.Row(
+                                                    [
+                                                        html.P("+1"),
+                                                        html.P(" "),
+                                                        html.P("Charisma")
+                                                    ]
+                                                ),
                                             ]
                                         )
+                                    ]
+                                ),
+                                dbc.Card(
+                                    [
+                                        dbc.CardHeader("Skill Proficiencies"),
+                                        dbc.CardBody(
+                                            [
                                     ]
                                 )
                             ]
