@@ -83,7 +83,7 @@ characterSheet = html.Div(
                             [
                                 dbc.Card(
                                     [
-                                        dbc.CardHeader("Saving Throws")
+                                        dbc.CardHeader("Saving Throws"),
                                         dbc.CardBody(
                                             [
                                                 dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
@@ -101,25 +101,27 @@ characterSheet = html.Div(
                                         dbc.CardHeader("Skill Proficiencies"),
                                         dbc.CardBody(
                                             [
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
-                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Acrobatics")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Animal Handling")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Arcana")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Athletics")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Deception")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("History")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Insight")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Investigation")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Medicine")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Nature")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Perception")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Performance")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Religion")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Sleight of Hand")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Stealth")]),
+                                                bc.Row([html.P("+1"),html.P(" "),html.P("Survival")]),
                                             ]
                                         )
                                     ]
-                                )
+                                ),
+                                
                             ]
                         )
                     ]
