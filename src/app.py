@@ -71,48 +71,12 @@ characterSheet = html.Div(
                     [
                         dbc.Col(
                             [
-                                dbc.Card(
-                                    [
-                                        dbc.CardHeader("Strength"),
-                                        dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4")]),
-                                    ]
-                                ),
-                                dbc.Card(
-                                    [
-                                        dbc.CardHeader("Dexterity"),
-                                        dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4")]),
-                                    ]
-                                ),
-                                dbc.Card(
-                                    [
-                                        dbc.CardHeader("Constitution"),
-                                        dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4")]),
-                                    ]
-                                ),
-                                dbc.Card(
-                                    [
-                                        dbc.CardHeader("Inteligence"),
-                                        dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4")]),
-                                    ]
-                                ),
-                                dbc.Card(
-                                    [
-                                        dbc.CardHeader("Wisdom"),
-                                        dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4")]),
-                                    ]
-                                ),
-                                dbc.Card(
-                                    [
-                                        dbc.CardHeader("Charisma"),
-                                        dbc.CardBody([html.H5("18")]),
-                                        dbc.CardFooter([html.P("+4")]),
-                                    ]
-                                ),
+                                dbc.Card([dbc.CardHeader("Strength"),dbc.CardBody([html.H5("18")]),dbc.CardFooter([html.P("+4")]),]),
+                                dbc.Card([dbc.CardHeader("Dexterity"),dbc.CardBody([html.H5("18")]),dbc.CardFooter([html.P("+4")]),]),
+                                dbc.Card([dbc.CardHeader("Constitution"),dbc.CardBody([html.H5("18")]),dbc.CardFooter([html.P("+4")]),]),
+                                dbc.Card([dbc.CardHeader("Inteligence"),dbc.CardBody([html.H5("18")]),dbc.CardFooter([html.P("+4")]),]),
+                                dbc.Card([dbc.CardHeader("Wisdom"),dbc.CardBody([html.H5("18")]),dbc.CardFooter([html.P("+4")]),]),
+                                dbc.Card([dbc.CardHeader("Charisma"),dbc.CardBody([html.H5("18")]),dbc.CardFooter([html.P("+4")]),]),
                             ]
                         ),
                         dbc.Col(
@@ -122,48 +86,12 @@ characterSheet = html.Div(
                                         dbc.CardHeader("Saving Throws")
                                         dbc.CardBody(
                                             [
-                                                dbc.Row(
-                                                    [
-                                                        html.P("+1"),
-                                                        html.P(" "),
-                                                        html.P("Strength")
-                                                    ]
-                                                ),
-                                                dbc.Row(
-                                                    [
-                                                        html.P("+1"),
-                                                        html.P(" "),
-                                                        html.P("Dexterity")
-                                                    ]
-                                                ),
-                                                dbc.Row(
-                                                    [
-                                                        html.P("+1"),
-                                                        html.P(" "),
-                                                        html.P("Constitution")
-                                                    ]
-                                                ),
-                                                dbc.Row(
-                                                    [
-                                                        html.P("+1"),
-                                                        html.P(" "),
-                                                        html.P("Inteligence")
-                                                    ]
-                                                ),
-                                                dbc.Row(
-                                                    [
-                                                        html.P("+1"),
-                                                        html.P(" "),
-                                                        html.P("Wisdom")
-                                                    ]
-                                                ),
-                                                dbc.Row(
-                                                    [
-                                                        html.P("+1"),
-                                                        html.P(" "),
-                                                        html.P("Charisma")
-                                                    ]
-                                                ),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Dexterity")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Constitution")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Inteligence")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Wisdom")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Charisma")]),
                                             ]
                                         )
                                     ]
@@ -173,6 +101,23 @@ characterSheet = html.Div(
                                         dbc.CardHeader("Skill Proficiencies"),
                                         dbc.CardBody(
                                             [
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                                dbc.Row([html.P("+1"),html.P(" "),html.P("Strength")]),
+                                            ]
+                                        )
                                     ]
                                 )
                             ]
