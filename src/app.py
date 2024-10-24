@@ -136,8 +136,8 @@ app.layout = main_page
 app.validation_layout = html.Div(
     [
         main_page,
-        pc_page,
-        character_design_page
+        groupH,
+        groupN
     ]
 )
 
