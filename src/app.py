@@ -80,7 +80,7 @@ characterSheet = html.Div(
                                         dbc.Card([dbc.CardHeader("Wisdom"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
                                         dbc.Card([dbc.CardHeader("Charisma"),dbc.CardBody([html.H4(["18"," / ", "+4"])])]),
                                     ],
-                                    width = 1,
+                                    width = 4,
                                 ),
                                 dbc.Col(
                                     [
@@ -131,7 +131,7 @@ characterSheet = html.Div(
                                             ]
                                         ),
                                     ],
-                                    width = 2,
+                                    width = 8,
                                 )
                             ]
                         )
@@ -151,7 +151,6 @@ characterSheet = html.Div(
         )
     ]
 )
-
 ## Group H
 
 groupH = html.Div(
