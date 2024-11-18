@@ -6,3 +6,4 @@ dash-tools
 dash_auth
 dash_bootstrap_components
 plotly
+numpy
