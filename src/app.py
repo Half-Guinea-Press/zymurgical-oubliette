@@ -1,4 +1,4 @@
-from flask import Flask, render_template_string
+from flask import Flask, render_template_string, g
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
 from dash_apps import simple_app, population
 import pandas as pd
