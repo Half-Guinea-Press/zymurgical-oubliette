@@ -14,12 +14,12 @@ def init_app(url_path, server=None):
     global df
 
     # If initializing Dash app using Flask app as host
-    #app = Dash(server=g.cur_app, #url_base_pathname=url_path)
+    app = Dash(server=g.cur_app, #url_base_pathname=url_path)
 
     # End if
     
     # If initializing Dash app for middleware
-    app = Dash(requests_pathname_prefix=url_path)
+    #app = Dash(requests_pathname_prefix=url_path)
 
     # End if
 
