@@ -1,6 +1,7 @@
 from flask import Flask, render_template_string
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
 from dash_apps import simple_app, population
+import pandas as pd
 
 # Initialize Flask server
 flask_app = Flask(__name__)
