@@ -26,7 +26,7 @@ def home():
         <h1>Main Flask App</h1>
         <h2>Select your Dash App</h2>
         <ul>
-            <li><a href:'/simple_app/'>Simple App</a></li>
-            <li><a href:'/population/'>Population</a></li>
+            <li><a href='/simple_app/'>Simple App</a></li>
+            <li><a href='/population/'>Population</a></li>
         </ul>"""
     )
